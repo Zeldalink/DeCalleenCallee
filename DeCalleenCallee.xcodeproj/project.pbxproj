@@ -1,0 +1,981 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB066544155CAE790063E739 /* SitespecificParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB066542155CAE790063E739 /* SitespecificParentViewController.m */; };
+		FB066545155CAE790063E739 /* SitespecificParentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB066543155CAE790063E739 /* SitespecificParentViewController.xib */; };
+		FB066555155CD1CF0063E739 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = FB066552155CD1CF0063E739 /* twitter.png */; };
+		FB066557155CD6A90063E739 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB066556155CD6A90063E739 /* Twitter.framework */; };
+		FB0713371593DA4E00ECD97E /* folder_pictures-1.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0713351593DA4E00ECD97E /* folder_pictures-1.png */; };
+		FB0713381593DA4E00ECD97E /* folder-music.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0713361593DA4E00ECD97E /* folder-music.png */; };
+		FB0E1A7C157E7E7100908E05 /* PlaceFromLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0E1A7B157E7E7100908E05 /* PlaceFromLocation.m */; };
+		FB177C74156DECA900986AF7 /* ArqueologyDescripcionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB177C72156DECA800986AF7 /* ArqueologyDescripcionViewController.m */; };
+		FB177C75156DECA900986AF7 /* ArqueologyDescripcionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB177C73156DECA800986AF7 /* ArqueologyDescripcionViewController.xib */; };
+		FB177C79156DECC100986AF7 /* ArqueologyImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB177C77156DECC000986AF7 /* ArqueologyImageViewController.m */; };
+		FB177C7A156DECC100986AF7 /* ArqueologyImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB177C78156DECC000986AF7 /* ArqueologyImageViewController.xib */; };
+		FB18A39915707DA80098A23E /* LibraryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB18A39715707DA80098A23E /* LibraryDetailViewController.m */; };
+		FB18A39A15707DA80098A23E /* LibraryDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB18A39815707DA80098A23E /* LibraryDetailViewController.xib */; };
+		FB18A39E157096010098A23E /* LibraryImagenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB18A39C157096000098A23E /* LibraryImagenViewController.m */; };
+		FB18A39F157096010098A23E /* LibraryImagenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB18A39D157096010098A23E /* LibraryImagenViewController.xib */; };
+		FB2DEC18155D961E009A2854 /* SiteSpecificImagenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2DEC16155D961E009A2854 /* SiteSpecificImagenViewController.m */; };
+		FB2DEC19155D961E009A2854 /* SiteSpecificImagenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB2DEC17155D961E009A2854 /* SiteSpecificImagenViewController.xib */; };
+		FB2DEC1D155D9A90009A2854 /* SiteSpecificDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2DEC1B155D9A8F009A2854 /* SiteSpecificDetailViewController.m */; };
+		FB2DEC1E155D9A90009A2854 /* SiteSpecificDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB2DEC1C155D9A8F009A2854 /* SiteSpecificDetailViewController.xib */; };
+		FB46061B159A86B8009B1F0F /* chavarria@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB460608159A86B7009B1F0F /* chavarria@2x.png */; };
+		FB46061C159A86B8009B1F0F /* cinco@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB460609159A86B7009B1F0F /* cinco@2x.png */; };
+		FB46061D159A86B8009B1F0F /* cristo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB46060A159A86B7009B1F0F /* cristo@2x.png */; };
+		FB46061E159A86B8009B1F0F /* danza@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB46060B159A86B7009B1F0F /* danza@2x.png */; };
+		FB46061F159A86B8009B1F0F /* factor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB46060C159A86B8009B1F0F /* factor@2x.png */; };
+		FB460620159A86B8009B1F0F /* flamenco@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB46060D159A86B8009B1F0F /* flamenco@2x.png */; };
+		FB460621159A86B8009B1F0F /* mail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB46060E159A86B8009B1F0F /* mail@2x.png */; };
+		FB460622159A86B8009B1F0F /* quemada@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB46060F159A86B8009B1F0F /* quemada@2x.png */; };
+		FB460623159A86B8009B1F0F /* volador@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB460610159A86B8009B1F0F /* volador@2x.png */; };
+		FB460624159A86B8009B1F0F /* chavarria.png in Resources */ = {isa = PBXBuildFile; fileRef = FB460612159A86B8009B1F0F /* chavarria.png */; };
+		FB460625159A86B8009B1F0F /* cinco.png in Resources */ = {isa = PBXBuildFile; fileRef = FB460613159A86B8009B1F0F /* cinco.png */; };
+		FB460626159A86B8009B1F0F /* cristo.png in Resources */ = {isa = PBXBuildFile; fileRef = FB460614159A86B8009B1F0F /* cristo.png */; };
+		FB460627159A86B8009B1F0F /* danza.png in Resources */ = {isa = PBXBuildFile; fileRef = FB460615159A86B8009B1F0F /* danza.png */; };
+		FB460628159A86B8009B1F0F /* factor.png in Resources */ = {isa = PBXBuildFile; fileRef = FB460616159A86B8009B1F0F /* factor.png */; };
+		FB460629159A86B8009B1F0F /* flamencos.png in Resources */ = {isa = PBXBuildFile; fileRef = FB460617159A86B8009B1F0F /* flamencos.png */; };
+		FB46062A159A86B8009B1F0F /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = FB460618159A86B8009B1F0F /* mail.png */; };
+		FB46062B159A86B8009B1F0F /* quemada.png in Resources */ = {isa = PBXBuildFile; fileRef = FB460619159A86B8009B1F0F /* quemada.png */; };
+		FB46062C159A86B8009B1F0F /* volador.png in Resources */ = {isa = PBXBuildFile; fileRef = FB46061A159A86B8009B1F0F /* volador.png */; };
+		FB460679159A92DE009B1F0F /* Facebook.m in Sources */ = {isa = PBXBuildFile; fileRef = FB460660159A92B1009B1F0F /* Facebook.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		FB46067A159A92DE009B1F0F /* FBDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = FB460664159A92B1009B1F0F /* FBDialog.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		FB46067B159A92DE009B1F0F /* FBFrictionlessRequestSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = FB460666159A92B1009B1F0F /* FBFrictionlessRequestSettings.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		FB46067C159A92DE009B1F0F /* FBLoginDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = FB460668159A92B1009B1F0F /* FBLoginDialog.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		FB46067D159A92DE009B1F0F /* FBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FB46066A159A92B1009B1F0F /* FBRequest.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		FB46067E159A92DE009B1F0F /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FB46066E159A92B1009B1F0F /* NSObject+SBJSON.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		FB46067F159A92DE009B1F0F /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FB460670159A92B1009B1F0F /* NSString+SBJSON.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		FB460680159A92DE009B1F0F /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FB460672159A92B1009B1F0F /* SBJSON.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		FB460681159A92DE009B1F0F /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FB460674159A92B1009B1F0F /* SBJsonBase.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		FB460682159A92DE009B1F0F /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FB460676159A92B1009B1F0F /* SBJsonParser.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		FB460683159A92DE009B1F0F /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = FB460678159A92B1009B1F0F /* SBJsonWriter.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		FB5D680E15901F49007EF535 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5D680D15901F49007EF535 /* AVFoundation.framework */; };
+		FB5D681315903945007EF535 /* fondo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5D681215903945007EF535 /* fondo@2x.png */; };
+		FB603DE61594235E00A9DFEB /* fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = FB603DE51594235E00A9DFEB /* fondo.png */; };
+		FB66441B155AF903006B67AC /* MyPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = FB66441A155AF903006B67AC /* MyPoint.m */; };
+		FB66441F155AFA4B006B67AC /* LegendDescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB66441D155AFA4B006B67AC /* LegendDescriptionViewController.m */; };
+		FB664420155AFA4B006B67AC /* LegendDescriptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB66441E155AFA4B006B67AC /* LegendDescriptionViewController.xib */; };
+		FB664422155AFC1E006B67AC /* library.png in Resources */ = {isa = PBXBuildFile; fileRef = FB664421155AFC1E006B67AC /* library.png */; };
+		FB698917155ACA79001E1398 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB698916155ACA79001E1398 /* CoreLocation.framework */; };
+		FB69891B155AD448001E1398 /* Sitespecific.m in Sources */ = {isa = PBXBuildFile; fileRef = FB698919155AD448001E1398 /* Sitespecific.m */; };
+		FB69891C155AD448001E1398 /* Sitespecific.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB69891A155AD448001E1398 /* Sitespecific.xib */; };
+		FB698920155AE25B001E1398 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB69891E155AE25A001E1398 /* HomeViewController.m */; };
+		FB698921155AE25B001E1398 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB69891F155AE25A001E1398 /* HomeViewController.xib */; };
+		FB836F8E1590DA0A0012ABED /* Legend.m in Sources */ = {isa = PBXBuildFile; fileRef = FB836F8D1590DA0A0012ABED /* Legend.m */; };
+		FB836F9215911B9C0012ABED /* DeCalleenCallee.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = FB836F9115911B9C0012ABED /* DeCalleenCallee.sqlite */; };
+		FB8CDCF2155D8EE9002EE695 /* LegendImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8CDCF0155D8EE9002EE695 /* LegendImageViewController.m */; };
+		FB8CDCF3155D8EE9002EE695 /* LegendImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB8CDCF1155D8EE9002EE695 /* LegendImageViewController.xib */; };
+		FB8D1B7515755C1C00E880FC /* icono-NO-RETINA.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D1B7415755C1C00E880FC /* icono-NO-RETINA.png */; };
+		FB91D516156EA88C00F5F818 /* ChurchDescripctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91D514156EA88A00F5F818 /* ChurchDescripctionViewController.m */; };
+		FB91D517156EA88C00F5F818 /* ChurchDescripctionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB91D515156EA88B00F5F818 /* ChurchDescripctionViewController.xib */; };
+		FB91D51B156EB06B00F5F818 /* ChurchImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91D519156EB06A00F5F818 /* ChurchImageViewController.m */; };
+		FB91D51C156EB06B00F5F818 /* ChurchImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB91D51A156EB06A00F5F818 /* ChurchImageViewController.xib */; };
+		FB91D52A156EB16700F5F818 /* SquareDescriptionController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91D528156EB16200F5F818 /* SquareDescriptionController.m */; };
+		FB91D52B156EB16700F5F818 /* SquareDescriptionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB91D529156EB16500F5F818 /* SquareDescriptionController.xib */; };
+		FB91D52F156EB1C500F5F818 /* SquareImgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91D52D156EB1BF00F5F818 /* SquareImgeViewController.m */; };
+		FB91D530156EB1C500F5F818 /* SquareImgeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB91D52E156EB1C200F5F818 /* SquareImgeViewController.xib */; };
+		FB91D534156EB2B300F5F818 /* TheatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91D532156EB2AA00F5F818 /* TheatherViewController.m */; };
+		FB91D535156EB2B300F5F818 /* TheatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB91D533156EB2AE00F5F818 /* TheatherViewController.xib */; };
+		FB91D539156EB2F500F5F818 /* TheatherImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91D537156EB2EC00F5F818 /* TheatherImageViewController.m */; };
+		FB91D53A156EB2F500F5F818 /* TheatherImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB91D538156EB2EF00F5F818 /* TheatherImageViewController.xib */; };
+		FB9F2FFC159A3CB0006F7F2C /* chavarria.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB9F2FF6159A3CB0006F7F2C /* chavarria.mp3 */; };
+		FB9F2FFD159A3CB0006F7F2C /* cinco.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB9F2FF7159A3CB0006F7F2C /* cinco.mp3 */; };
+		FB9F2FFE159A3CB0006F7F2C /* factor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB9F2FF8159A3CB0006F7F2C /* factor.mp3 */; };
+		FB9F2FFF159A3CB0006F7F2C /* flamenco.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB9F2FF9159A3CB0006F7F2C /* flamenco.mp3 */; };
+		FB9F3000159A3CB0006F7F2C /* mail1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB9F2FFA159A3CB0006F7F2C /* mail1.mp3 */; };
+		FB9F3001159A3CB0006F7F2C /* volador.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB9F2FFB159A3CB0006F7F2C /* volador.mp3 */; };
+		FBBDF7D51599399C003B632C /* burned.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBBDF7D41599399C003B632C /* burned.mp3 */; };
+		FBC577BA157524D200C2F7CA /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC577B9157524D200C2F7CA /* book.png */; };
+		FBC577BE1575256F00C2F7CA /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC577BD1575256F00C2F7CA /* map.png */; };
+		FBC577C01575259700C2F7CA /* map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC577BF1575259700C2F7CA /* map@2x.png */; };
+		FBC577C2157525CC00C2F7CA /* book@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC577C1157525CC00C2F7CA /* book@2x.png */; };
+		FBC760FF15A21920003BADD0 /* adanza.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBC760FE15A21920003BADD0 /* adanza.mp3 */; };
+		FBCCBEB0155D751A00AE818D /* LegendDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBCCBEAE155D751900AE818D /* LegendDetailViewController.xib */; };
+		FBCD5576159388B000CF6F91 /* theater.png in Resources */ = {isa = PBXBuildFile; fileRef = FBCD5570159388AF00CF6F91 /* theater.png */; };
+		FBCD5577159388B000CF6F91 /* arqueology.png in Resources */ = {isa = PBXBuildFile; fileRef = FBCD5571159388AF00CF6F91 /* arqueology.png */; };
+		FBCD5578159388B000CF6F91 /* place.png in Resources */ = {isa = PBXBuildFile; fileRef = FBCD5572159388B000CF6F91 /* place.png */; };
+		FBCD5579159388B000CF6F91 /* museum.png in Resources */ = {isa = PBXBuildFile; fileRef = FBCD5573159388B000CF6F91 /* museum.png */; };
+		FBCD557A159388B000CF6F91 /* libraryb.png in Resources */ = {isa = PBXBuildFile; fileRef = FBCD5574159388B000CF6F91 /* libraryb.png */; };
+		FBCD557B159388B000CF6F91 /* church.png in Resources */ = {isa = PBXBuildFile; fileRef = FBCD5575159388B000CF6F91 /* church.png */; };
+		FBD1A18E15A215E3009F0007 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD1A18D15A215E3009F0007 /* Default@2x.png */; };
+		FBD1A19015A215E6009F0007 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD1A18F15A215E6009F0007 /* Default.png */; };
+		FBD5B009157C3A78006F2488 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD5B008157C3A78006F2488 /* facebook.png */; };
+		FBD5D6AC156C643500B5F75E /* icono-RETINA-DISPLAY.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD5D6AB156C643500B5F75E /* icono-RETINA-DISPLAY.png */; };
+		FBD6F7DE155C849C009C19BD /* MyPointMuseum.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD6F7DD155C849C009C19BD /* MyPointMuseum.m */; };
+		FBD6F7EB155CACBC009C19BD /* MyPointChurch.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD6F7EA155CACBC009C19BD /* MyPointChurch.m */; };
+		FBDA7C9F155C1ABB0069B49C /* LegendParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDA7C9D155C1ABB0069B49C /* LegendParentViewController.m */; };
+		FBDA7CA0155C1ABB0069B49C /* LegendParentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBDA7C9E155C1ABB0069B49C /* LegendParentViewController.xib */; };
+		FBE5A31F1559FA450070BA64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE5A31E1559FA450070BA64 /* UIKit.framework */; };
+		FBE5A3211559FA450070BA64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE5A3201559FA450070BA64 /* Foundation.framework */; };
+		FBE5A3231559FA450070BA64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE5A3221559FA450070BA64 /* CoreGraphics.framework */; };
+		FBE5A3251559FA450070BA64 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE5A3241559FA450070BA64 /* CoreData.framework */; };
+		FBE5A32B1559FA450070BA64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBE5A3291559FA450070BA64 /* InfoPlist.strings */; };
+		FBE5A32D1559FA450070BA64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE5A32C1559FA450070BA64 /* main.m */; };
+		FBE5A3311559FA450070BA64 /* DCCDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE5A3301559FA450070BA64 /* DCCDAppDelegate.m */; };
+		FBE5A3341559FA450070BA64 /* DeCalleenCallee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBE5A3321559FA450070BA64 /* DeCalleenCallee.xcdatamodeld */; };
+		FBE5A3491559FB4B0070BA64 /* HomeLegend.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE5A3471559FB4B0070BA64 /* HomeLegend.m */; };
+		FBE5A34A1559FB4B0070BA64 /* HomeLegend.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE5A3481559FB4B0070BA64 /* HomeLegend.xib */; };
+		FBE5A351155A32C00070BA64 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE5A350155A32BF0070BA64 /* MapKit.framework */; };
+		FBE9F841156CC255009D5DAE /* MyPointplace.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE9F840156CC255009D5DAE /* MyPointplace.m */; };
+		FBE9F845156CC321009D5DAE /* MyPointtheater.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE9F844156CC321009D5DAE /* MyPointtheater.m */; };
+		FBE9F848156CC349009D5DAE /* MyPointLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE9F847156CC349009D5DAE /* MyPointLibrary.m */; };
+		FBE9F84B156CC364009D5DAE /* MyPointarqueology.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE9F84A156CC364009D5DAE /* MyPointarqueology.m */; };
+		FBE9F88E156D5A94009D5DAE /* Arqueology.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE9F88D156D5A94009D5DAE /* Arqueology.m */; };
+		FBE9F891156D5AA7009D5DAE /* Church.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE9F890156D5AA7009D5DAE /* Church.m */; };
+		FBE9F894156D5B38009D5DAE /* Library.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE9F893156D5B38009D5DAE /* Library.m */; };
+		FBE9F897156D5B4B009D5DAE /* Museum.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE9F896156D5B4B009D5DAE /* Museum.m */; };
+		FBE9F89A156D5B65009D5DAE /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE9F899156D5B65009D5DAE /* Square.m */; };
+		FBE9F89D156D5B9B009D5DAE /* Theather.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE9F89C156D5B9B009D5DAE /* Theather.m */; };
+		FBF963E3159EBEC0006116B8 /* veneno.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBF963E2159EBEC0006116B8 /* veneno.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB066541155CAE790063E739 /* SitespecificParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SitespecificParentViewController.h; sourceTree = "<group>"; };
+		FB066542155CAE790063E739 /* SitespecificParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SitespecificParentViewController.m; sourceTree = "<group>"; };
+		FB066543155CAE790063E739 /* SitespecificParentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SitespecificParentViewController.xib; sourceTree = "<group>"; };
+		FB066552155CD1CF0063E739 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		FB066556155CD6A90063E739 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		FB0713351593DA4E00ECD97E /* folder_pictures-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "folder_pictures-1.png"; sourceTree = "<group>"; };
+		FB0713361593DA4E00ECD97E /* folder-music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "folder-music.png"; sourceTree = "<group>"; };
+		FB0E1A7A157E7E7100908E05 /* PlaceFromLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceFromLocation.h; sourceTree = "<group>"; };
+		FB0E1A7B157E7E7100908E05 /* PlaceFromLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceFromLocation.m; sourceTree = "<group>"; };
+		FB177C71156DECA800986AF7 /* ArqueologyDescripcionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArqueologyDescripcionViewController.h; sourceTree = "<group>"; };
+		FB177C72156DECA800986AF7 /* ArqueologyDescripcionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArqueologyDescripcionViewController.m; sourceTree = "<group>"; };
+		FB177C73156DECA800986AF7 /* ArqueologyDescripcionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArqueologyDescripcionViewController.xib; sourceTree = "<group>"; };
+		FB177C76156DECC000986AF7 /* ArqueologyImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArqueologyImageViewController.h; sourceTree = "<group>"; };
+		FB177C77156DECC000986AF7 /* ArqueologyImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArqueologyImageViewController.m; sourceTree = "<group>"; };
+		FB177C78156DECC000986AF7 /* ArqueologyImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArqueologyImageViewController.xib; sourceTree = "<group>"; };
+		FB18A39615707DA80098A23E /* LibraryDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryDetailViewController.h; sourceTree = "<group>"; };
+		FB18A39715707DA80098A23E /* LibraryDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryDetailViewController.m; sourceTree = "<group>"; };
+		FB18A39815707DA80098A23E /* LibraryDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LibraryDetailViewController.xib; sourceTree = "<group>"; };
+		FB18A39B157096000098A23E /* LibraryImagenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryImagenViewController.h; sourceTree = "<group>"; };
+		FB18A39C157096000098A23E /* LibraryImagenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryImagenViewController.m; sourceTree = "<group>"; };
+		FB18A39D157096010098A23E /* LibraryImagenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LibraryImagenViewController.xib; sourceTree = "<group>"; };
+		FB2DEC15155D961E009A2854 /* SiteSpecificImagenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiteSpecificImagenViewController.h; sourceTree = "<group>"; };
+		FB2DEC16155D961E009A2854 /* SiteSpecificImagenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiteSpecificImagenViewController.m; sourceTree = "<group>"; };
+		FB2DEC17155D961E009A2854 /* SiteSpecificImagenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SiteSpecificImagenViewController.xib; sourceTree = "<group>"; };
+		FB2DEC1A155D9A8F009A2854 /* SiteSpecificDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiteSpecificDetailViewController.h; sourceTree = "<group>"; };
+		FB2DEC1B155D9A8F009A2854 /* SiteSpecificDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiteSpecificDetailViewController.m; sourceTree = "<group>"; };
+		FB2DEC1C155D9A8F009A2854 /* SiteSpecificDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SiteSpecificDetailViewController.xib; sourceTree = "<group>"; };
+		FB460608159A86B7009B1F0F /* chavarria@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chavarria@2x.png"; sourceTree = "<group>"; };
+		FB460609159A86B7009B1F0F /* cinco@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cinco@2x.png"; sourceTree = "<group>"; };
+		FB46060A159A86B7009B1F0F /* cristo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cristo@2x.png"; sourceTree = "<group>"; };
+		FB46060B159A86B7009B1F0F /* danza@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "danza@2x.png"; sourceTree = "<group>"; };
+		FB46060C159A86B8009B1F0F /* factor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "factor@2x.png"; sourceTree = "<group>"; };
+		FB46060D159A86B8009B1F0F /* flamenco@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flamenco@2x.png"; sourceTree = "<group>"; };
+		FB46060E159A86B8009B1F0F /* mail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail@2x.png"; sourceTree = "<group>"; };
+		FB46060F159A86B8009B1F0F /* quemada@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quemada@2x.png"; sourceTree = "<group>"; };
+		FB460610159A86B8009B1F0F /* volador@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "volador@2x.png"; sourceTree = "<group>"; };
+		FB460612159A86B8009B1F0F /* chavarria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chavarria.png; sourceTree = "<group>"; };
+		FB460613159A86B8009B1F0F /* cinco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cinco.png; sourceTree = "<group>"; };
+		FB460614159A86B8009B1F0F /* cristo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cristo.png; sourceTree = "<group>"; };
+		FB460615159A86B8009B1F0F /* danza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = danza.png; sourceTree = "<group>"; };
+		FB460616159A86B8009B1F0F /* factor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = factor.png; sourceTree = "<group>"; };
+		FB460617159A86B8009B1F0F /* flamencos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flamencos.png; sourceTree = "<group>"; };
+		FB460618159A86B8009B1F0F /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		FB460619159A86B8009B1F0F /* quemada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quemada.png; sourceTree = "<group>"; };
+		FB46061A159A86B8009B1F0F /* volador.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volador.png; sourceTree = "<group>"; };
+		FB46065F159A92B1009B1F0F /* Facebook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
+		FB460660159A92B1009B1F0F /* Facebook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Facebook.m; sourceTree = "<group>"; };
+		FB460661159A92B1009B1F0F /* FBConnect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBConnect.h; sourceTree = "<group>"; };
+		FB460662159A92B1009B1F0F /* FBDialog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBDialog.bundle; sourceTree = "<group>"; };
+		FB460663159A92B1009B1F0F /* FBDialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBDialog.h; sourceTree = "<group>"; };
+		FB460664159A92B1009B1F0F /* FBDialog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBDialog.m; sourceTree = "<group>"; };
+		FB460665159A92B1009B1F0F /* FBFrictionlessRequestSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBFrictionlessRequestSettings.h; sourceTree = "<group>"; };
+		FB460666159A92B1009B1F0F /* FBFrictionlessRequestSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBFrictionlessRequestSettings.m; sourceTree = "<group>"; };
+		FB460667159A92B1009B1F0F /* FBLoginDialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBLoginDialog.h; sourceTree = "<group>"; };
+		FB460668159A92B1009B1F0F /* FBLoginDialog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBLoginDialog.m; sourceTree = "<group>"; };
+		FB460669159A92B1009B1F0F /* FBRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
+		FB46066A159A92B1009B1F0F /* FBRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBRequest.m; sourceTree = "<group>"; };
+		FB46066C159A92B1009B1F0F /* JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		FB46066D159A92B1009B1F0F /* NSObject+SBJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		FB46066E159A92B1009B1F0F /* NSObject+SBJSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		FB46066F159A92B1009B1F0F /* NSString+SBJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		FB460670159A92B1009B1F0F /* NSString+SBJSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		FB460671159A92B1009B1F0F /* SBJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		FB460672159A92B1009B1F0F /* SBJSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		FB460673159A92B1009B1F0F /* SBJsonBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		FB460674159A92B1009B1F0F /* SBJsonBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		FB460675159A92B1009B1F0F /* SBJsonParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		FB460676159A92B1009B1F0F /* SBJsonParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		FB460677159A92B1009B1F0F /* SBJsonWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		FB460678159A92B1009B1F0F /* SBJsonWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		FB5D680D15901F49007EF535 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FB5D681215903945007EF535 /* fondo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fondo@2x.png"; sourceTree = "<group>"; };
+		FB603DE51594235E00A9DFEB /* fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo.png; sourceTree = "<group>"; };
+		FB664419155AF903006B67AC /* MyPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPoint.h; sourceTree = "<group>"; };
+		FB66441A155AF903006B67AC /* MyPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPoint.m; sourceTree = "<group>"; };
+		FB66441C155AFA4B006B67AC /* LegendDescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegendDescriptionViewController.h; sourceTree = "<group>"; };
+		FB66441D155AFA4B006B67AC /* LegendDescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegendDescriptionViewController.m; sourceTree = "<group>"; };
+		FB66441E155AFA4B006B67AC /* LegendDescriptionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LegendDescriptionViewController.xib; sourceTree = "<group>"; };
+		FB664421155AFC1E006B67AC /* library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = library.png; sourceTree = "<group>"; };
+		FB698916155ACA79001E1398 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FB698918155AD448001E1398 /* Sitespecific.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sitespecific.h; sourceTree = "<group>"; };
+		FB698919155AD448001E1398 /* Sitespecific.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sitespecific.m; sourceTree = "<group>"; };
+		FB69891A155AD448001E1398 /* Sitespecific.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Sitespecific.xib; sourceTree = "<group>"; };
+		FB69891D155AE25A001E1398 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		FB69891E155AE25A001E1398 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		FB69891F155AE25A001E1398 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		FB836F8C1590DA0A0012ABED /* Legend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Legend.h; path = DeCalleenCallee/Legend.h; sourceTree = "<group>"; };
+		FB836F8D1590DA0A0012ABED /* Legend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Legend.m; path = DeCalleenCallee/Legend.m; sourceTree = "<group>"; };
+		FB836F9115911B9C0012ABED /* DeCalleenCallee.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = DeCalleenCallee.sqlite; sourceTree = "<group>"; };
+		FB8CDCEF155D8EE9002EE695 /* LegendImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegendImageViewController.h; sourceTree = "<group>"; };
+		FB8CDCF0155D8EE9002EE695 /* LegendImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegendImageViewController.m; sourceTree = "<group>"; };
+		FB8CDCF1155D8EE9002EE695 /* LegendImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LegendImageViewController.xib; sourceTree = "<group>"; };
+		FB8D1B7415755C1C00E880FC /* icono-NO-RETINA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icono-NO-RETINA.png"; sourceTree = "<group>"; };
+		FB91D513156EA88A00F5F818 /* ChurchDescripctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChurchDescripctionViewController.h; sourceTree = "<group>"; };
+		FB91D514156EA88A00F5F818 /* ChurchDescripctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChurchDescripctionViewController.m; sourceTree = "<group>"; };
+		FB91D515156EA88B00F5F818 /* ChurchDescripctionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChurchDescripctionViewController.xib; sourceTree = "<group>"; };
+		FB91D518156EB06900F5F818 /* ChurchImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChurchImageViewController.h; sourceTree = "<group>"; };
+		FB91D519156EB06A00F5F818 /* ChurchImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChurchImageViewController.m; sourceTree = "<group>"; };
+		FB91D51A156EB06A00F5F818 /* ChurchImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChurchImageViewController.xib; sourceTree = "<group>"; };
+		FB91D527156EB15F00F5F818 /* SquareDescriptionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareDescriptionController.h; sourceTree = "<group>"; };
+		FB91D528156EB16200F5F818 /* SquareDescriptionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareDescriptionController.m; sourceTree = "<group>"; };
+		FB91D529156EB16500F5F818 /* SquareDescriptionController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SquareDescriptionController.xib; sourceTree = "<group>"; };
+		FB91D52C156EB1BA00F5F818 /* SquareImgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareImgeViewController.h; sourceTree = "<group>"; };
+		FB91D52D156EB1BF00F5F818 /* SquareImgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareImgeViewController.m; sourceTree = "<group>"; };
+		FB91D52E156EB1C200F5F818 /* SquareImgeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SquareImgeViewController.xib; sourceTree = "<group>"; };
+		FB91D531156EB2A700F5F818 /* TheatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheatherViewController.h; sourceTree = "<group>"; };
+		FB91D532156EB2AA00F5F818 /* TheatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheatherViewController.m; sourceTree = "<group>"; };
+		FB91D533156EB2AE00F5F818 /* TheatherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TheatherViewController.xib; sourceTree = "<group>"; };
+		FB91D536156EB2E800F5F818 /* TheatherImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheatherImageViewController.h; sourceTree = "<group>"; };
+		FB91D537156EB2EC00F5F818 /* TheatherImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheatherImageViewController.m; sourceTree = "<group>"; };
+		FB91D538156EB2EF00F5F818 /* TheatherImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TheatherImageViewController.xib; sourceTree = "<group>"; };
+		FB9F2FF6159A3CB0006F7F2C /* chavarria.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chavarria.mp3; sourceTree = "<group>"; };
+		FB9F2FF7159A3CB0006F7F2C /* cinco.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cinco.mp3; sourceTree = "<group>"; };
+		FB9F2FF8159A3CB0006F7F2C /* factor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = factor.mp3; sourceTree = "<group>"; };
+		FB9F2FF9159A3CB0006F7F2C /* flamenco.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = flamenco.mp3; sourceTree = "<group>"; };
+		FB9F2FFA159A3CB0006F7F2C /* mail1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mail1.mp3; sourceTree = "<group>"; };
+		FB9F2FFB159A3CB0006F7F2C /* volador.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = volador.mp3; sourceTree = "<group>"; };
+		FBBDF7D41599399C003B632C /* burned.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = burned.mp3; sourceTree = "<group>"; };
+		FBC577B9157524D200C2F7CA /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		FBC577BD1575256F00C2F7CA /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		FBC577BF1575259700C2F7CA /* map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map@2x.png"; sourceTree = "<group>"; };
+		FBC577C1157525CC00C2F7CA /* book@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "book@2x.png"; sourceTree = "<group>"; };
+		FBC760FE15A21920003BADD0 /* adanza.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adanza.mp3; sourceTree = "<group>"; };
+		FBCCBEAE155D751900AE818D /* LegendDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LegendDetailViewController.xib; sourceTree = "<group>"; };
+		FBCD5570159388AF00CF6F91 /* theater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theater.png; sourceTree = "<group>"; };
+		FBCD5571159388AF00CF6F91 /* arqueology.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arqueology.png; sourceTree = "<group>"; };
+		FBCD5572159388B000CF6F91 /* place.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = place.png; sourceTree = "<group>"; };
+		FBCD5573159388B000CF6F91 /* museum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = museum.png; sourceTree = "<group>"; };
+		FBCD5574159388B000CF6F91 /* libraryb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = libraryb.png; sourceTree = "<group>"; };
+		FBCD5575159388B000CF6F91 /* church.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = church.png; sourceTree = "<group>"; };
+		FBD1A18D15A215E3009F0007 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		FBD1A18F15A215E6009F0007 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		FBD5B008157C3A78006F2488 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		FBD5D6AB156C643500B5F75E /* icono-RETINA-DISPLAY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icono-RETINA-DISPLAY.png"; sourceTree = "<group>"; };
+		FBD6F7DC155C849C009C19BD /* MyPointMuseum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPointMuseum.h; sourceTree = "<group>"; };
+		FBD6F7DD155C849C009C19BD /* MyPointMuseum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPointMuseum.m; sourceTree = "<group>"; };
+		FBD6F7E9155CACBC009C19BD /* MyPointChurch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPointChurch.h; sourceTree = "<group>"; };
+		FBD6F7EA155CACBC009C19BD /* MyPointChurch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPointChurch.m; sourceTree = "<group>"; };
+		FBDA7C9C155C1ABB0069B49C /* LegendParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegendParentViewController.h; sourceTree = "<group>"; };
+		FBDA7C9D155C1ABB0069B49C /* LegendParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegendParentViewController.m; sourceTree = "<group>"; };
+		FBDA7C9E155C1ABB0069B49C /* LegendParentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LegendParentViewController.xib; sourceTree = "<group>"; };
+		FBE5A31A1559FA450070BA64 /* DeCalleenCallee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeCalleenCallee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE5A31E1559FA450070BA64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FBE5A3201559FA450070BA64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FBE5A3221559FA450070BA64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FBE5A3241559FA450070BA64 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FBE5A3281559FA450070BA64 /* DeCalleenCallee-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeCalleenCallee-Info.plist"; sourceTree = "<group>"; };
+		FBE5A32A1559FA450070BA64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBE5A32C1559FA450070BA64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBE5A32E1559FA450070BA64 /* DeCalleenCallee-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeCalleenCallee-Prefix.pch"; sourceTree = "<group>"; };
+		FBE5A32F1559FA450070BA64 /* DCCDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCCDAppDelegate.h; sourceTree = "<group>"; };
+		FBE5A3301559FA450070BA64 /* DCCDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCCDAppDelegate.m; sourceTree = "<group>"; };
+		FBE5A3331559FA450070BA64 /* DeCalleenCallee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DeCalleenCallee.xcdatamodel; sourceTree = "<group>"; };
+		FBE5A3461559FB4B0070BA64 /* HomeLegend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeLegend.h; sourceTree = "<group>"; };
+		FBE5A3471559FB4B0070BA64 /* HomeLegend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeLegend.m; sourceTree = "<group>"; };
+		FBE5A3481559FB4B0070BA64 /* HomeLegend.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeLegend.xib; sourceTree = "<group>"; };
+		FBE5A350155A32BF0070BA64 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FBE9F83F156CC255009D5DAE /* MyPointplace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPointplace.h; sourceTree = "<group>"; };
+		FBE9F840156CC255009D5DAE /* MyPointplace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPointplace.m; sourceTree = "<group>"; };
+		FBE9F843156CC321009D5DAE /* MyPointtheater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPointtheater.h; sourceTree = "<group>"; };
+		FBE9F844156CC321009D5DAE /* MyPointtheater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPointtheater.m; sourceTree = "<group>"; };
+		FBE9F846156CC349009D5DAE /* MyPointLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPointLibrary.h; sourceTree = "<group>"; };
+		FBE9F847156CC349009D5DAE /* MyPointLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPointLibrary.m; sourceTree = "<group>"; };
+		FBE9F849156CC364009D5DAE /* MyPointarqueology.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPointarqueology.h; sourceTree = "<group>"; };
+		FBE9F84A156CC364009D5DAE /* MyPointarqueology.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPointarqueology.m; sourceTree = "<group>"; };
+		FBE9F88C156D5A94009D5DAE /* Arqueology.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Arqueology.h; path = DeCalleenCallee/Arqueology.h; sourceTree = "<group>"; };
+		FBE9F88D156D5A94009D5DAE /* Arqueology.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Arqueology.m; path = DeCalleenCallee/Arqueology.m; sourceTree = "<group>"; };
+		FBE9F88F156D5AA7009D5DAE /* Church.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Church.h; path = DeCalleenCallee/Church.h; sourceTree = "<group>"; };
+		FBE9F890156D5AA7009D5DAE /* Church.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Church.m; path = DeCalleenCallee/Church.m; sourceTree = "<group>"; };
+		FBE9F892156D5B38009D5DAE /* Library.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Library.h; path = DeCalleenCallee/Library.h; sourceTree = "<group>"; };
+		FBE9F893156D5B38009D5DAE /* Library.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Library.m; path = DeCalleenCallee/Library.m; sourceTree = "<group>"; };
+		FBE9F895156D5B4B009D5DAE /* Museum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Museum.h; path = DeCalleenCallee/Museum.h; sourceTree = "<group>"; };
+		FBE9F896156D5B4B009D5DAE /* Museum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Museum.m; path = DeCalleenCallee/Museum.m; sourceTree = "<group>"; };
+		FBE9F898156D5B65009D5DAE /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Square.h; path = DeCalleenCallee/Square.h; sourceTree = "<group>"; };
+		FBE9F899156D5B65009D5DAE /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Square.m; path = DeCalleenCallee/Square.m; sourceTree = "<group>"; };
+		FBE9F89B156D5B9B009D5DAE /* Theather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Theather.h; path = DeCalleenCallee/Theather.h; sourceTree = "<group>"; };
+		FBE9F89C156D5B9B009D5DAE /* Theather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Theather.m; path = DeCalleenCallee/Theather.m; sourceTree = "<group>"; };
+		FBF963E2159EBEC0006116B8 /* veneno.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = veneno.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBE5A3171559FA450070BA64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5D680E15901F49007EF535 /* AVFoundation.framework in Frameworks */,
+				FB066557155CD6A90063E739 /* Twitter.framework in Frameworks */,
+				FB698917155ACA79001E1398 /* CoreLocation.framework in Frameworks */,
+				FBE5A351155A32C00070BA64 /* MapKit.framework in Frameworks */,
+				FBE5A31F1559FA450070BA64 /* UIKit.framework in Frameworks */,
+				FBE5A3211559FA450070BA64 /* Foundation.framework in Frameworks */,
+				FBE5A3231559FA450070BA64 /* CoreGraphics.framework in Frameworks */,
+				FBE5A3251559FA450070BA64 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB460607159A86B7009B1F0F /* ilustraciones640 */ = {
+			isa = PBXGroup;
+			children = (
+				FB460608159A86B7009B1F0F /* chavarria@2x.png */,
+				FB460609159A86B7009B1F0F /* cinco@2x.png */,
+				FB46060A159A86B7009B1F0F /* cristo@2x.png */,
+				FB46060B159A86B7009B1F0F /* danza@2x.png */,
+				FB46060C159A86B8009B1F0F /* factor@2x.png */,
+				FB46060D159A86B8009B1F0F /* flamenco@2x.png */,
+				FB46060E159A86B8009B1F0F /* mail@2x.png */,
+				FB46060F159A86B8009B1F0F /* quemada@2x.png */,
+				FB460610159A86B8009B1F0F /* volador@2x.png */,
+			);
+			path = ilustraciones640;
+			sourceTree = "<group>";
+		};
+		FB460611159A86B8009B1F0F /* Leyendas 320 */ = {
+			isa = PBXGroup;
+			children = (
+				FBD1A18F15A215E6009F0007 /* Default.png */,
+				FBD1A18D15A215E3009F0007 /* Default@2x.png */,
+				FB460612159A86B8009B1F0F /* chavarria.png */,
+				FB460613159A86B8009B1F0F /* cinco.png */,
+				FB460614159A86B8009B1F0F /* cristo.png */,
+				FB460615159A86B8009B1F0F /* danza.png */,
+				FB460616159A86B8009B1F0F /* factor.png */,
+				FB460617159A86B8009B1F0F /* flamencos.png */,
+				FB460618159A86B8009B1F0F /* mail.png */,
+				FB460619159A86B8009B1F0F /* quemada.png */,
+				FB46061A159A86B8009B1F0F /* volador.png */,
+			);
+			path = "Leyendas 320";
+			sourceTree = "<group>";
+		};
+		FB46065E159A9296009B1F0F /* FACEBOOK */ = {
+			isa = PBXGroup;
+			children = (
+				FB46065F159A92B1009B1F0F /* Facebook.h */,
+				FB460660159A92B1009B1F0F /* Facebook.m */,
+				FB460661159A92B1009B1F0F /* FBConnect.h */,
+				FB460662159A92B1009B1F0F /* FBDialog.bundle */,
+				FB460663159A92B1009B1F0F /* FBDialog.h */,
+				FB460664159A92B1009B1F0F /* FBDialog.m */,
+				FB460665159A92B1009B1F0F /* FBFrictionlessRequestSettings.h */,
+				FB460666159A92B1009B1F0F /* FBFrictionlessRequestSettings.m */,
+				FB460667159A92B1009B1F0F /* FBLoginDialog.h */,
+				FB460668159A92B1009B1F0F /* FBLoginDialog.m */,
+				FB460669159A92B1009B1F0F /* FBRequest.h */,
+				FB46066A159A92B1009B1F0F /* FBRequest.m */,
+				FB46066B159A92B1009B1F0F /* JSON */,
+			);
+			name = FACEBOOK;
+			sourceTree = "<group>";
+		};
+		FB46066B159A92B1009B1F0F /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				FB46066C159A92B1009B1F0F /* JSON.h */,
+				FB46066D159A92B1009B1F0F /* NSObject+SBJSON.h */,
+				FB46066E159A92B1009B1F0F /* NSObject+SBJSON.m */,
+				FB46066F159A92B1009B1F0F /* NSString+SBJSON.h */,
+				FB460670159A92B1009B1F0F /* NSString+SBJSON.m */,
+				FB460671159A92B1009B1F0F /* SBJSON.h */,
+				FB460672159A92B1009B1F0F /* SBJSON.m */,
+				FB460673159A92B1009B1F0F /* SBJsonBase.h */,
+				FB460674159A92B1009B1F0F /* SBJsonBase.m */,
+				FB460675159A92B1009B1F0F /* SBJsonParser.h */,
+				FB460676159A92B1009B1F0F /* SBJsonParser.m */,
+				FB460677159A92B1009B1F0F /* SBJsonWriter.h */,
+				FB460678159A92B1009B1F0F /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		FB6EC710155DCD3F003E4B67 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FB836F8C1590DA0A0012ABED /* Legend.h */,
+				FB836F8D1590DA0A0012ABED /* Legend.m */,
+				FBE9F88C156D5A94009D5DAE /* Arqueology.h */,
+				FBE9F88D156D5A94009D5DAE /* Arqueology.m */,
+				FBE9F88F156D5AA7009D5DAE /* Church.h */,
+				FBE9F890156D5AA7009D5DAE /* Church.m */,
+				FBE9F892156D5B38009D5DAE /* Library.h */,
+				FBE9F893156D5B38009D5DAE /* Library.m */,
+				FBE9F89B156D5B9B009D5DAE /* Theather.h */,
+				FBE9F89C156D5B9B009D5DAE /* Theather.m */,
+				FBE9F898156D5B65009D5DAE /* Square.h */,
+				FBE9F899156D5B65009D5DAE /* Square.m */,
+				FBE9F895156D5B4B009D5DAE /* Museum.h */,
+				FBE9F896156D5B4B009D5DAE /* Museum.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FBCCBEB1155D759500AE818D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FBE21AD3155D7F9F0070007A /* SiteSpecific */,
+				FBCCBEB3155D7A8200AE818D /* Home */,
+				FBCCBEB2155D7A7100AE818D /* Legend */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FBCCBEB2155D7A7100AE818D /* Legend */ = {
+			isa = PBXGroup;
+			children = (
+				FB8CDCEF155D8EE9002EE695 /* LegendImageViewController.h */,
+				FB8CDCF0155D8EE9002EE695 /* LegendImageViewController.m */,
+				FB66441C155AFA4B006B67AC /* LegendDescriptionViewController.h */,
+				FB66441D155AFA4B006B67AC /* LegendDescriptionViewController.m */,
+				FBE5A3461559FB4B0070BA64 /* HomeLegend.h */,
+				FBE5A3471559FB4B0070BA64 /* HomeLegend.m */,
+				FBDA7C9C155C1ABB0069B49C /* LegendParentViewController.h */,
+				FBDA7C9D155C1ABB0069B49C /* LegendParentViewController.m */,
+			);
+			name = Legend;
+			sourceTree = "<group>";
+		};
+		FBCCBEB3155D7A8200AE818D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FB69891D155AE25A001E1398 /* HomeViewController.h */,
+				FB69891E155AE25A001E1398 /* HomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		FBCCBEB4155D7EA500AE818D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB2DEC17155D961E009A2854 /* SiteSpecificImagenViewController.xib */,
+				FB8CDCF1155D8EE9002EE695 /* LegendImageViewController.xib */,
+				FB69891A155AD448001E1398 /* Sitespecific.xib */,
+				FBE5A3481559FB4B0070BA64 /* HomeLegend.xib */,
+				FBDA7C9E155C1ABB0069B49C /* LegendParentViewController.xib */,
+				FBCCBEAE155D751900AE818D /* LegendDetailViewController.xib */,
+				FB066543155CAE790063E739 /* SitespecificParentViewController.xib */,
+				FB66441E155AFA4B006B67AC /* LegendDescriptionViewController.xib */,
+				FB69891F155AE25A001E1398 /* HomeViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FBCD557C159388B800CF6F91 /* Image Pin */ = {
+			isa = PBXGroup;
+			children = (
+				FB664421155AFC1E006B67AC /* library.png */,
+				FBCD5574159388B000CF6F91 /* libraryb.png */,
+				FBCD5573159388B000CF6F91 /* museum.png */,
+				FBCD5575159388B000CF6F91 /* church.png */,
+				FBCD5572159388B000CF6F91 /* place.png */,
+				FBCD5570159388AF00CF6F91 /* theater.png */,
+				FBCD5571159388AF00CF6F91 /* arqueology.png */,
+			);
+			name = "Image Pin";
+			sourceTree = "<group>";
+		};
+		FBCD557D159389E500CF6F91 /* Audio File */ = {
+			isa = PBXGroup;
+			children = (
+				FBBDF7D41599399C003B632C /* burned.mp3 */,
+				FB9F2FF6159A3CB0006F7F2C /* chavarria.mp3 */,
+				FB9F2FF7159A3CB0006F7F2C /* cinco.mp3 */,
+				FB9F2FF8159A3CB0006F7F2C /* factor.mp3 */,
+				FBC760FE15A21920003BADD0 /* adanza.mp3 */,
+				FB9F2FF9159A3CB0006F7F2C /* flamenco.mp3 */,
+				FB9F2FFA159A3CB0006F7F2C /* mail1.mp3 */,
+				FB9F2FFB159A3CB0006F7F2C /* volador.mp3 */,
+				FBF963E2159EBEC0006116B8 /* veneno.mp3 */,
+			);
+			name = "Audio File";
+			sourceTree = "<group>";
+		};
+		FBCD557E15938A1400CF6F91 /* Icon TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FBC577B9157524D200C2F7CA /* book.png */,
+				FBC577BD1575256F00C2F7CA /* map.png */,
+				FBC577BF1575259700C2F7CA /* map@2x.png */,
+				FBC577C1157525CC00C2F7CA /* book@2x.png */,
+			);
+			name = "Icon TabBar";
+			sourceTree = "<group>";
+		};
+		FBCD557F15938A4000CF6F91 /* Icon Display  */ = {
+			isa = PBXGroup;
+			children = (
+				FB0713351593DA4E00ECD97E /* folder_pictures-1.png */,
+				FB603DE51594235E00A9DFEB /* fondo.png */,
+				FB0713361593DA4E00ECD97E /* folder-music.png */,
+				FBD5B008157C3A78006F2488 /* facebook.png */,
+				FB066552155CD1CF0063E739 /* twitter.png */,
+				FB5D681215903945007EF535 /* fondo@2x.png */,
+			);
+			name = "Icon Display ";
+			sourceTree = "<group>";
+		};
+		FBD6F7D8155C5F1C009C19BD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FBCD557C159388B800CF6F91 /* Image Pin */,
+				FBCD557D159389E500CF6F91 /* Audio File */,
+				FBCD557E15938A1400CF6F91 /* Icon TabBar */,
+				FBCD557F15938A4000CF6F91 /* Icon Display  */,
+				FB460607159A86B7009B1F0F /* ilustraciones640 */,
+				FB460611159A86B8009B1F0F /* Leyendas 320 */,
+				FB8D1B7415755C1C00E880FC /* icono-NO-RETINA.png */,
+				FBD5D6AB156C643500B5F75E /* icono-RETINA-DISPLAY.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FBD6F7EC155CACCF009C19BD /* Class Point */ = {
+			isa = PBXGroup;
+			children = (
+				FB0E1A7A157E7E7100908E05 /* PlaceFromLocation.h */,
+				FB0E1A7B157E7E7100908E05 /* PlaceFromLocation.m */,
+				FB664419155AF903006B67AC /* MyPoint.h */,
+				FB66441A155AF903006B67AC /* MyPoint.m */,
+				FBD6F7DC155C849C009C19BD /* MyPointMuseum.h */,
+				FBD6F7DD155C849C009C19BD /* MyPointMuseum.m */,
+				FBD6F7E9155CACBC009C19BD /* MyPointChurch.h */,
+				FBD6F7EA155CACBC009C19BD /* MyPointChurch.m */,
+				FBE9F83F156CC255009D5DAE /* MyPointplace.h */,
+				FBE9F840156CC255009D5DAE /* MyPointplace.m */,
+				FBE9F843156CC321009D5DAE /* MyPointtheater.h */,
+				FBE9F844156CC321009D5DAE /* MyPointtheater.m */,
+				FBE9F846156CC349009D5DAE /* MyPointLibrary.h */,
+				FBE9F847156CC349009D5DAE /* MyPointLibrary.m */,
+				FBE9F849156CC364009D5DAE /* MyPointarqueology.h */,
+				FBE9F84A156CC364009D5DAE /* MyPointarqueology.m */,
+			);
+			name = "Class Point";
+			sourceTree = "<group>";
+		};
+		FBE21AD3155D7F9F0070007A /* SiteSpecific */ = {
+			isa = PBXGroup;
+			children = (
+				FB91D52C156EB1BA00F5F818 /* SquareImgeViewController.h */,
+				FB91D52D156EB1BF00F5F818 /* SquareImgeViewController.m */,
+				FB91D52E156EB1C200F5F818 /* SquareImgeViewController.xib */,
+				FB91D527156EB15F00F5F818 /* SquareDescriptionController.h */,
+				FB91D528156EB16200F5F818 /* SquareDescriptionController.m */,
+				FB91D529156EB16500F5F818 /* SquareDescriptionController.xib */,
+				FB91D531156EB2A700F5F818 /* TheatherViewController.h */,
+				FB91D532156EB2AA00F5F818 /* TheatherViewController.m */,
+				FB91D533156EB2AE00F5F818 /* TheatherViewController.xib */,
+				FB91D536156EB2E800F5F818 /* TheatherImageViewController.h */,
+				FB91D537156EB2EC00F5F818 /* TheatherImageViewController.m */,
+				FB91D538156EB2EF00F5F818 /* TheatherImageViewController.xib */,
+				FB91D513156EA88A00F5F818 /* ChurchDescripctionViewController.h */,
+				FB91D514156EA88A00F5F818 /* ChurchDescripctionViewController.m */,
+				FB91D515156EA88B00F5F818 /* ChurchDescripctionViewController.xib */,
+				FB91D518156EB06900F5F818 /* ChurchImageViewController.h */,
+				FB91D519156EB06A00F5F818 /* ChurchImageViewController.m */,
+				FB91D51A156EB06A00F5F818 /* ChurchImageViewController.xib */,
+				FB177C76156DECC000986AF7 /* ArqueologyImageViewController.h */,
+				FB177C77156DECC000986AF7 /* ArqueologyImageViewController.m */,
+				FB177C78156DECC000986AF7 /* ArqueologyImageViewController.xib */,
+				FB177C71156DECA800986AF7 /* ArqueologyDescripcionViewController.h */,
+				FB177C72156DECA800986AF7 /* ArqueologyDescripcionViewController.m */,
+				FB177C73156DECA800986AF7 /* ArqueologyDescripcionViewController.xib */,
+				FB2DEC15155D961E009A2854 /* SiteSpecificImagenViewController.h */,
+				FB2DEC16155D961E009A2854 /* SiteSpecificImagenViewController.m */,
+				FB698918155AD448001E1398 /* Sitespecific.h */,
+				FB698919155AD448001E1398 /* Sitespecific.m */,
+				FB066541155CAE790063E739 /* SitespecificParentViewController.h */,
+				FB066542155CAE790063E739 /* SitespecificParentViewController.m */,
+				FB2DEC1A155D9A8F009A2854 /* SiteSpecificDetailViewController.h */,
+				FB2DEC1B155D9A8F009A2854 /* SiteSpecificDetailViewController.m */,
+				FB2DEC1C155D9A8F009A2854 /* SiteSpecificDetailViewController.xib */,
+				FB18A39615707DA80098A23E /* LibraryDetailViewController.h */,
+				FB18A39715707DA80098A23E /* LibraryDetailViewController.m */,
+				FB18A39815707DA80098A23E /* LibraryDetailViewController.xib */,
+				FB18A39B157096000098A23E /* LibraryImagenViewController.h */,
+				FB18A39C157096000098A23E /* LibraryImagenViewController.m */,
+				FB18A39D157096010098A23E /* LibraryImagenViewController.xib */,
+			);
+			name = SiteSpecific;
+			sourceTree = "<group>";
+		};
+		FBE5A30F1559FA440070BA64 = {
+			isa = PBXGroup;
+			children = (
+				FB46065E159A9296009B1F0F /* FACEBOOK */,
+				FB6EC710155DCD3F003E4B67 /* Models */,
+				FBCCBEB4155D7EA500AE818D /* Views */,
+				FBCCBEB1155D759500AE818D /* Controllers */,
+				FBD6F7D8155C5F1C009C19BD /* Resources */,
+				FBD6F7EC155CACCF009C19BD /* Class Point */,
+				FBE5A3261559FA450070BA64 /* DeCalleenCallee */,
+				FBE5A31D1559FA450070BA64 /* Frameworks */,
+				FBE5A31B1559FA450070BA64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBE5A31B1559FA450070BA64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBE5A31A1559FA450070BA64 /* DeCalleenCallee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBE5A31D1559FA450070BA64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB5D680D15901F49007EF535 /* AVFoundation.framework */,
+				FB066556155CD6A90063E739 /* Twitter.framework */,
+				FB698916155ACA79001E1398 /* CoreLocation.framework */,
+				FBE5A350155A32BF0070BA64 /* MapKit.framework */,
+				FBE5A31E1559FA450070BA64 /* UIKit.framework */,
+				FBE5A3201559FA450070BA64 /* Foundation.framework */,
+				FBE5A3221559FA450070BA64 /* CoreGraphics.framework */,
+				FBE5A3241559FA450070BA64 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBE5A3261559FA450070BA64 /* DeCalleenCallee */ = {
+			isa = PBXGroup;
+			children = (
+				FBE5A32F1559FA450070BA64 /* DCCDAppDelegate.h */,
+				FBE5A3301559FA450070BA64 /* DCCDAppDelegate.m */,
+				FBE5A3321559FA450070BA64 /* DeCalleenCallee.xcdatamodeld */,
+				FBE5A3271559FA450070BA64 /* Supporting Files */,
+			);
+			path = DeCalleenCallee;
+			sourceTree = "<group>";
+		};
+		FBE5A3271559FA450070BA64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB836F9115911B9C0012ABED /* DeCalleenCallee.sqlite */,
+				FBE5A3281559FA450070BA64 /* DeCalleenCallee-Info.plist */,
+				FBE5A3291559FA450070BA64 /* InfoPlist.strings */,
+				FBE5A32C1559FA450070BA64 /* main.m */,
+				FBE5A32E1559FA450070BA64 /* DeCalleenCallee-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBE5A3191559FA450070BA64 /* DeCalleenCallee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBE5A3431559FA450070BA64 /* Build configuration list for PBXNativeTarget "DeCalleenCallee" */;
+			buildPhases = (
+				FBE5A3161559FA450070BA64 /* Sources */,
+				FBE5A3171559FA450070BA64 /* Frameworks */,
+				FBE5A3181559FA450070BA64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeCalleenCallee;
+			productName = DeCalleenCallee;
+			productReference = FBE5A31A1559FA450070BA64 /* DeCalleenCallee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBE5A3111559FA440070BA64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FBE5A3141559FA440070BA64 /* Build configuration list for PBXProject "DeCalleenCallee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBE5A30F1559FA440070BA64;
+			productRefGroup = FBE5A31B1559FA450070BA64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBE5A3191559FA450070BA64 /* DeCalleenCallee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBE5A3181559FA450070BA64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE5A32B1559FA450070BA64 /* InfoPlist.strings in Resources */,
+				FBE5A34A1559FB4B0070BA64 /* HomeLegend.xib in Resources */,
+				FB69891C155AD448001E1398 /* Sitespecific.xib in Resources */,
+				FB698921155AE25B001E1398 /* HomeViewController.xib in Resources */,
+				FB664420155AFA4B006B67AC /* LegendDescriptionViewController.xib in Resources */,
+				FB664422155AFC1E006B67AC /* library.png in Resources */,
+				FBDA7CA0155C1ABB0069B49C /* LegendParentViewController.xib in Resources */,
+				FB066545155CAE790063E739 /* SitespecificParentViewController.xib in Resources */,
+				FB066555155CD1CF0063E739 /* twitter.png in Resources */,
+				FBCCBEB0155D751A00AE818D /* LegendDetailViewController.xib in Resources */,
+				FB8CDCF3155D8EE9002EE695 /* LegendImageViewController.xib in Resources */,
+				FB2DEC19155D961E009A2854 /* SiteSpecificImagenViewController.xib in Resources */,
+				FB2DEC1E155D9A90009A2854 /* SiteSpecificDetailViewController.xib in Resources */,
+				FBD5D6AC156C643500B5F75E /* icono-RETINA-DISPLAY.png in Resources */,
+				FB177C75156DECA900986AF7 /* ArqueologyDescripcionViewController.xib in Resources */,
+				FB177C7A156DECC100986AF7 /* ArqueologyImageViewController.xib in Resources */,
+				FB91D517156EA88C00F5F818 /* ChurchDescripctionViewController.xib in Resources */,
+				FB91D51C156EB06B00F5F818 /* ChurchImageViewController.xib in Resources */,
+				FB91D52B156EB16700F5F818 /* SquareDescriptionController.xib in Resources */,
+				FB91D530156EB1C500F5F818 /* SquareImgeViewController.xib in Resources */,
+				FB91D535156EB2B300F5F818 /* TheatherViewController.xib in Resources */,
+				FB91D53A156EB2F500F5F818 /* TheatherImageViewController.xib in Resources */,
+				FB18A39A15707DA80098A23E /* LibraryDetailViewController.xib in Resources */,
+				FB18A39F157096010098A23E /* LibraryImagenViewController.xib in Resources */,
+				FBC577BA157524D200C2F7CA /* book.png in Resources */,
+				FBC577BE1575256F00C2F7CA /* map.png in Resources */,
+				FBC577C01575259700C2F7CA /* map@2x.png in Resources */,
+				FBC577C2157525CC00C2F7CA /* book@2x.png in Resources */,
+				FB8D1B7515755C1C00E880FC /* icono-NO-RETINA.png in Resources */,
+				FBD5B009157C3A78006F2488 /* facebook.png in Resources */,
+				FB5D681315903945007EF535 /* fondo@2x.png in Resources */,
+				FB836F9215911B9C0012ABED /* DeCalleenCallee.sqlite in Resources */,
+				FBCD5576159388B000CF6F91 /* theater.png in Resources */,
+				FBCD5577159388B000CF6F91 /* arqueology.png in Resources */,
+				FBCD5578159388B000CF6F91 /* place.png in Resources */,
+				FBCD5579159388B000CF6F91 /* museum.png in Resources */,
+				FBCD557A159388B000CF6F91 /* libraryb.png in Resources */,
+				FBCD557B159388B000CF6F91 /* church.png in Resources */,
+				FB0713371593DA4E00ECD97E /* folder_pictures-1.png in Resources */,
+				FB0713381593DA4E00ECD97E /* folder-music.png in Resources */,
+				FB603DE61594235E00A9DFEB /* fondo.png in Resources */,
+				FBBDF7D51599399C003B632C /* burned.mp3 in Resources */,
+				FB9F2FFC159A3CB0006F7F2C /* chavarria.mp3 in Resources */,
+				FB9F2FFD159A3CB0006F7F2C /* cinco.mp3 in Resources */,
+				FB9F2FFE159A3CB0006F7F2C /* factor.mp3 in Resources */,
+				FB9F2FFF159A3CB0006F7F2C /* flamenco.mp3 in Resources */,
+				FB9F3000159A3CB0006F7F2C /* mail1.mp3 in Resources */,
+				FB9F3001159A3CB0006F7F2C /* volador.mp3 in Resources */,
+				FB46061B159A86B8009B1F0F /* chavarria@2x.png in Resources */,
+				FB46061C159A86B8009B1F0F /* cinco@2x.png in Resources */,
+				FB46061D159A86B8009B1F0F /* cristo@2x.png in Resources */,
+				FB46061E159A86B8009B1F0F /* danza@2x.png in Resources */,
+				FB46061F159A86B8009B1F0F /* factor@2x.png in Resources */,
+				FB460620159A86B8009B1F0F /* flamenco@2x.png in Resources */,
+				FB460621159A86B8009B1F0F /* mail@2x.png in Resources */,
+				FB460622159A86B8009B1F0F /* quemada@2x.png in Resources */,
+				FB460623159A86B8009B1F0F /* volador@2x.png in Resources */,
+				FB460624159A86B8009B1F0F /* chavarria.png in Resources */,
+				FB460625159A86B8009B1F0F /* cinco.png in Resources */,
+				FB460626159A86B8009B1F0F /* cristo.png in Resources */,
+				FB460627159A86B8009B1F0F /* danza.png in Resources */,
+				FB460628159A86B8009B1F0F /* factor.png in Resources */,
+				FB460629159A86B8009B1F0F /* flamencos.png in Resources */,
+				FB46062A159A86B8009B1F0F /* mail.png in Resources */,
+				FB46062B159A86B8009B1F0F /* quemada.png in Resources */,
+				FB46062C159A86B8009B1F0F /* volador.png in Resources */,
+				FBF963E3159EBEC0006116B8 /* veneno.mp3 in Resources */,
+				FBD1A18E15A215E3009F0007 /* Default@2x.png in Resources */,
+				FBD1A19015A215E6009F0007 /* Default.png in Resources */,
+				FBC760FF15A21920003BADD0 /* adanza.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBE5A3161559FA450070BA64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB460679159A92DE009B1F0F /* Facebook.m in Sources */,
+				FB46067A159A92DE009B1F0F /* FBDialog.m in Sources */,
+				FB46067B159A92DE009B1F0F /* FBFrictionlessRequestSettings.m in Sources */,
+				FB46067C159A92DE009B1F0F /* FBLoginDialog.m in Sources */,
+				FB46067D159A92DE009B1F0F /* FBRequest.m in Sources */,
+				FB46067E159A92DE009B1F0F /* NSObject+SBJSON.m in Sources */,
+				FB46067F159A92DE009B1F0F /* NSString+SBJSON.m in Sources */,
+				FB460680159A92DE009B1F0F /* SBJSON.m in Sources */,
+				FB460681159A92DE009B1F0F /* SBJsonBase.m in Sources */,
+				FB460682159A92DE009B1F0F /* SBJsonParser.m in Sources */,
+				FB460683159A92DE009B1F0F /* SBJsonWriter.m in Sources */,
+				FBE5A32D1559FA450070BA64 /* main.m in Sources */,
+				FBE5A3311559FA450070BA64 /* DCCDAppDelegate.m in Sources */,
+				FBE5A3341559FA450070BA64 /* DeCalleenCallee.xcdatamodeld in Sources */,
+				FBE5A3491559FB4B0070BA64 /* HomeLegend.m in Sources */,
+				FB69891B155AD448001E1398 /* Sitespecific.m in Sources */,
+				FB698920155AE25B001E1398 /* HomeViewController.m in Sources */,
+				FB66441B155AF903006B67AC /* MyPoint.m in Sources */,
+				FB66441F155AFA4B006B67AC /* LegendDescriptionViewController.m in Sources */,
+				FBDA7C9F155C1ABB0069B49C /* LegendParentViewController.m in Sources */,
+				FBD6F7DE155C849C009C19BD /* MyPointMuseum.m in Sources */,
+				FBD6F7EB155CACBC009C19BD /* MyPointChurch.m in Sources */,
+				FB066544155CAE790063E739 /* SitespecificParentViewController.m in Sources */,
+				FB8CDCF2155D8EE9002EE695 /* LegendImageViewController.m in Sources */,
+				FB2DEC18155D961E009A2854 /* SiteSpecificImagenViewController.m in Sources */,
+				FB2DEC1D155D9A90009A2854 /* SiteSpecificDetailViewController.m in Sources */,
+				FBE9F841156CC255009D5DAE /* MyPointplace.m in Sources */,
+				FBE9F845156CC321009D5DAE /* MyPointtheater.m in Sources */,
+				FBE9F848156CC349009D5DAE /* MyPointLibrary.m in Sources */,
+				FBE9F84B156CC364009D5DAE /* MyPointarqueology.m in Sources */,
+				FBE9F88E156D5A94009D5DAE /* Arqueology.m in Sources */,
+				FBE9F891156D5AA7009D5DAE /* Church.m in Sources */,
+				FBE9F894156D5B38009D5DAE /* Library.m in Sources */,
+				FBE9F897156D5B4B009D5DAE /* Museum.m in Sources */,
+				FBE9F89A156D5B65009D5DAE /* Square.m in Sources */,
+				FBE9F89D156D5B9B009D5DAE /* Theather.m in Sources */,
+				FB177C74156DECA900986AF7 /* ArqueologyDescripcionViewController.m in Sources */,
+				FB177C79156DECC100986AF7 /* ArqueologyImageViewController.m in Sources */,
+				FB91D516156EA88C00F5F818 /* ChurchDescripctionViewController.m in Sources */,
+				FB91D51B156EB06B00F5F818 /* ChurchImageViewController.m in Sources */,
+				FB91D52A156EB16700F5F818 /* SquareDescriptionController.m in Sources */,
+				FB91D52F156EB1C500F5F818 /* SquareImgeViewController.m in Sources */,
+				FB91D534156EB2B300F5F818 /* TheatherViewController.m in Sources */,
+				FB91D539156EB2F500F5F818 /* TheatherImageViewController.m in Sources */,
+				FB18A39915707DA80098A23E /* LibraryDetailViewController.m in Sources */,
+				FB18A39E157096010098A23E /* LibraryImagenViewController.m in Sources */,
+				FB0E1A7C157E7E7100908E05 /* PlaceFromLocation.m in Sources */,
+				FB836F8E1590DA0A0012ABED /* Legend.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBE5A3291559FA450070BA64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBE5A32A1559FA450070BA64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBE5A3411559FA450070BA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBE5A3421559FA450070BA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBE5A3441559FA450070BA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeCalleenCallee/DeCalleenCallee-Prefix.pch";
+				INFOPLIST_FILE = "DeCalleenCallee/DeCalleenCallee-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FBE5A3451559FA450070BA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeCalleenCallee/DeCalleenCallee-Prefix.pch";
+				INFOPLIST_FILE = "DeCalleenCallee/DeCalleenCallee-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBE5A3141559FA440070BA64 /* Build configuration list for PBXProject "DeCalleenCallee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE5A3411559FA450070BA64 /* Debug */,
+				FBE5A3421559FA450070BA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBE5A3431559FA450070BA64 /* Build configuration list for PBXNativeTarget "DeCalleenCallee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE5A3441559FA450070BA64 /* Debug */,
+				FBE5A3451559FA450070BA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FBE5A3321559FA450070BA64 /* DeCalleenCallee.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FBE5A3331559FA450070BA64 /* DeCalleenCallee.xcdatamodel */,
+			);
+			currentVersion = FBE5A3331559FA450070BA64 /* DeCalleenCallee.xcdatamodel */;
+			path = DeCalleenCallee.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FBE5A3111559FA440070BA64 /* Project object */;
+}

@@ -1,0 +1,17 @@
+//
+//  DCCDDetailViewController.h
+//  DeCalleenCallee
+//
+//  Created by Xochitl Perez on 08/05/12.
+//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface DCCDDetailViewController : UIViewController
+
+@property (strong, nonatomic) id detailItem;
+
+@property (strong, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+
+@end
