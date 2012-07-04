@@ -105,6 +105,7 @@
 		FBCD557B159388B000CF6F91 /* church.png in Resources */ = {isa = PBXBuildFile; fileRef = FBCD5575159388B000CF6F91 /* church.png */; };
 		FBD1A18E15A215E3009F0007 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD1A18D15A215E3009F0007 /* Default@2x.png */; };
 		FBD1A19015A215E6009F0007 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD1A18F15A215E6009F0007 /* Default.png */; };
+		FBD4F1D115A3DAF40003DDB2 /* folder_musicba.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD4F1D015A3DAF40003DDB2 /* folder_musicba.png */; };
 		FBD5B009157C3A78006F2488 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD5B008157C3A78006F2488 /* facebook.png */; };
 		FBD5D6AC156C643500B5F75E /* icono-RETINA-DISPLAY.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD5D6AB156C643500B5F75E /* icono-RETINA-DISPLAY.png */; };
 		FBD6F7DE155C849C009C19BD /* MyPointMuseum.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD6F7DD155C849C009C19BD /* MyPointMuseum.m */; };
@@ -268,6 +269,7 @@
 		FBCD5575159388B000CF6F91 /* church.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = church.png; sourceTree = "<group>"; };
 		FBD1A18D15A215E3009F0007 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 		FBD1A18F15A215E6009F0007 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		FBD4F1D015A3DAF40003DDB2 /* folder_musicba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folder_musicba.png; sourceTree = "<group>"; };
 		FBD5B008157C3A78006F2488 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
 		FBD5D6AB156C643500B5F75E /* icono-RETINA-DISPLAY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icono-RETINA-DISPLAY.png"; sourceTree = "<group>"; };
 		FBD6F7DC155C849C009C19BD /* MyPointMuseum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPointMuseum.h; sourceTree = "<group>"; };
@@ -526,6 +528,7 @@
 			children = (
 				FB0713351593DA4E00ECD97E /* folder_pictures-1.png */,
 				FB603DE51594235E00A9DFEB /* fondo.png */,
+				FBD4F1D015A3DAF40003DDB2 /* folder_musicba.png */,
 				FB0713361593DA4E00ECD97E /* folder-music.png */,
 				FBD5B008157C3A78006F2488 /* facebook.png */,
 				FB066552155CD1CF0063E739 /* twitter.png */,
@@ -799,6 +802,7 @@
 				FBD1A18E15A215E3009F0007 /* Default@2x.png in Resources */,
 				FBD1A19015A215E6009F0007 /* Default.png in Resources */,
 				FBC760FF15A21920003BADD0 /* adanza.mp3 in Resources */,
+				FBD4F1D115A3DAF40003DDB2 /* folder_musicba.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

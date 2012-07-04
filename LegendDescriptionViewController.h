@@ -20,7 +20,8 @@
     IBOutlet UIButton *audioButton;
     AVAudioPlayer *audioPlayer;
     Facebook *facebook;
-    NSArray *permissions;
+    NSArray *permissions
+    ;
 }
 
 @property(nonatomic,retain)Facebook *facebook;

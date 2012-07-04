@@ -113,17 +113,22 @@
 - (IBAction)playMovie:(id)sender {
     if([audioPlayer isPlaying]){
         [audioPlayer stop];
+       [audioButton setImage:[UIImage imageNamed:@"folder-music.png"] forState:UIControlStateNormal];
     
     }
     else {
         [audioPlayer play];
+            [audioButton setImage:[UIImage imageNamed:@"folder_musicba.png"] forState:UIControlStateNormal];
+        [sender setTitle:@"stop" forState:UIControlStateNormal];
     }
 }
 -(void)audioPlayerBeginInterruption:(AVAudioPlayer *)player{
+    [audioButton setImage:[UIImage imageNamed:@"folder_musicba.png"] forState:UIControlStateNormal];
     [audioPlayer play];
 }
 -(void)audioPlayerEndInterruption:(AVAudioPlayer *)player{
     [audioPlayer play];
+    [audioButton setImage:[UIImage imageNamed:@"folder-music.png"] forState:UIControlStateNormal];
 }
 - (IBAction)playImage:(id)sender {
     
