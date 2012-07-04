@@ -113,7 +113,7 @@
 - (IBAction)playMovie:(id)sender {
     if([audioPlayer isPlaying]){
         [audioPlayer stop];
-       [audioButton setImage:[UIImage imageNamed:@"folder-music.png"] forState:UIControlStateNormal];
+       [audioButton setImage:[UIImage imageNamed:@"folder_music.png"] forState:UIControlStateNormal];
     
     }
     else {
@@ -128,7 +128,7 @@
 }
 -(void)audioPlayerEndInterruption:(AVAudioPlayer *)player{
     [audioPlayer play];
-    [audioButton setImage:[UIImage imageNamed:@"folder-music.png"] forState:UIControlStateNormal];
+    [audioButton setImage:[UIImage imageNamed:@"folder_music.png"] forState:UIControlStateNormal];
 }
 - (IBAction)playImage:(id)sender {
     

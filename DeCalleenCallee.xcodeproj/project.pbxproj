@@ -12,7 +12,6 @@
 		FB066555155CD1CF0063E739 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = FB066552155CD1CF0063E739 /* twitter.png */; };
 		FB066557155CD6A90063E739 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB066556155CD6A90063E739 /* Twitter.framework */; };
 		FB0713371593DA4E00ECD97E /* folder_pictures-1.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0713351593DA4E00ECD97E /* folder_pictures-1.png */; };
-		FB0713381593DA4E00ECD97E /* folder-music.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0713361593DA4E00ECD97E /* folder-music.png */; };
 		FB0E1A7C157E7E7100908E05 /* PlaceFromLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0E1A7B157E7E7100908E05 /* PlaceFromLocation.m */; };
 		FB177C74156DECA900986AF7 /* ArqueologyDescripcionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB177C72156DECA800986AF7 /* ArqueologyDescripcionViewController.m */; };
 		FB177C75156DECA900986AF7 /* ArqueologyDescripcionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB177C73156DECA800986AF7 /* ArqueologyDescripcionViewController.xib */; };
@@ -106,6 +105,7 @@
 		FBD1A18E15A215E3009F0007 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD1A18D15A215E3009F0007 /* Default@2x.png */; };
 		FBD1A19015A215E6009F0007 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD1A18F15A215E6009F0007 /* Default.png */; };
 		FBD4F1D115A3DAF40003DDB2 /* folder_musicba.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD4F1D015A3DAF40003DDB2 /* folder_musicba.png */; };
+		FBD4F1D415A3EB9B0003DDB2 /* folder_music.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD4F1D315A3EB9B0003DDB2 /* folder_music.png */; };
 		FBD5B009157C3A78006F2488 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD5B008157C3A78006F2488 /* facebook.png */; };
 		FBD5D6AC156C643500B5F75E /* icono-RETINA-DISPLAY.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD5D6AB156C643500B5F75E /* icono-RETINA-DISPLAY.png */; };
 		FBD6F7DE155C849C009C19BD /* MyPointMuseum.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD6F7DD155C849C009C19BD /* MyPointMuseum.m */; };
@@ -143,7 +143,6 @@
 		FB066552155CD1CF0063E739 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
 		FB066556155CD6A90063E739 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		FB0713351593DA4E00ECD97E /* folder_pictures-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "folder_pictures-1.png"; sourceTree = "<group>"; };
-		FB0713361593DA4E00ECD97E /* folder-music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "folder-music.png"; sourceTree = "<group>"; };
 		FB0E1A7A157E7E7100908E05 /* PlaceFromLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceFromLocation.h; sourceTree = "<group>"; };
 		FB0E1A7B157E7E7100908E05 /* PlaceFromLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceFromLocation.m; sourceTree = "<group>"; };
 		FB177C71156DECA800986AF7 /* ArqueologyDescripcionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArqueologyDescripcionViewController.h; sourceTree = "<group>"; };
@@ -270,6 +269,7 @@
 		FBD1A18D15A215E3009F0007 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 		FBD1A18F15A215E6009F0007 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
 		FBD4F1D015A3DAF40003DDB2 /* folder_musicba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folder_musicba.png; sourceTree = "<group>"; };
+		FBD4F1D315A3EB9B0003DDB2 /* folder_music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folder_music.png; sourceTree = "<group>"; };
 		FBD5B008157C3A78006F2488 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
 		FBD5D6AB156C643500B5F75E /* icono-RETINA-DISPLAY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icono-RETINA-DISPLAY.png"; sourceTree = "<group>"; };
 		FBD6F7DC155C849C009C19BD /* MyPointMuseum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPointMuseum.h; sourceTree = "<group>"; };
@@ -526,10 +526,10 @@
 		FBCD557F15938A4000CF6F91 /* Icon Display  */ = {
 			isa = PBXGroup;
 			children = (
+				FBD4F1D315A3EB9B0003DDB2 /* folder_music.png */,
 				FB0713351593DA4E00ECD97E /* folder_pictures-1.png */,
 				FB603DE51594235E00A9DFEB /* fondo.png */,
 				FBD4F1D015A3DAF40003DDB2 /* folder_musicba.png */,
-				FB0713361593DA4E00ECD97E /* folder-music.png */,
 				FBD5B008157C3A78006F2488 /* facebook.png */,
 				FB066552155CD1CF0063E739 /* twitter.png */,
 				FB5D681215903945007EF535 /* fondo@2x.png */,
@@ -771,7 +771,6 @@
 				FBCD557A159388B000CF6F91 /* libraryb.png in Resources */,
 				FBCD557B159388B000CF6F91 /* church.png in Resources */,
 				FB0713371593DA4E00ECD97E /* folder_pictures-1.png in Resources */,
-				FB0713381593DA4E00ECD97E /* folder-music.png in Resources */,
 				FB603DE61594235E00A9DFEB /* fondo.png in Resources */,
 				FBBDF7D51599399C003B632C /* burned.mp3 in Resources */,
 				FB9F2FFC159A3CB0006F7F2C /* chavarria.mp3 in Resources */,
@@ -803,6 +802,7 @@
 				FBD1A19015A215E6009F0007 /* Default.png in Resources */,
 				FBC760FF15A21920003BADD0 /* adanza.mp3 in Resources */,
 				FBD4F1D115A3DAF40003DDB2 /* folder_musicba.png in Resources */,
+				FBD4F1D415A3EB9B0003DDB2 /* folder_music.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
