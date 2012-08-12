@@ -19,6 +19,6 @@
 
 @property (weak, nonatomic) IBOutlet UITextView *Summary;
 
-- (IBAction)ImagenArqueology:(id)sender;
+
 @property(nonatomic,strong)Arqueology *detailArqueology;
 @end

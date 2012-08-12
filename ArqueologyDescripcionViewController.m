@@ -8,7 +8,7 @@
 
 #import "ArqueologyDescripcionViewController.h"
 #import "Arqueology.h"
-#import "ArqueologyImageViewController.h"
+
 
 @implementation ArqueologyDescripcionViewController
 @synthesize backgroundArqueology = _backgroundArqueology;
@@ -70,9 +70,5 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-- (IBAction)ImagenArqueology:(id)sender {
-    ArqueologyImageViewController *imagedisplay=[[ArqueologyImageViewController alloc]initWithNibName:@"ArqueologyImageViewController" bundle:nil];
-    [imagedisplay setDetailArqueology:_detailArqueology];
-    [self.navigationController pushViewController:imagedisplay animated:YES]; 
-}
+
 @end

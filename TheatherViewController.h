@@ -14,7 +14,7 @@
 
 }
 @property (weak, nonatomic) IBOutlet UITextView *Summary;
-- (IBAction)ImagenDisplay:(id)sender;
+
 
 @property (weak, nonatomic) IBOutlet UITextView *Title;
 @property (weak, nonatomic) IBOutlet UIImageView *backgroundTheather;

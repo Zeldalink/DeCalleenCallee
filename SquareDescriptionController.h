@@ -12,7 +12,6 @@
 @interface SquareDescriptionController : UIViewController{
     Square *detailSquare;
 }
-- (IBAction)ImagenDisplay:(id)sender;
 @property (weak, nonatomic) IBOutlet UITextView *Summary;
 @property (weak, nonatomic) IBOutlet UITextView *Title;
 @property (weak, nonatomic) IBOutlet UIImageView *backgroundSquare;

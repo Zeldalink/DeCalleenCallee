@@ -16,6 +16,5 @@
 }
 @property (weak, nonatomic) IBOutlet UITextView *Title;
 @property (weak, nonatomic) IBOutlet UITextView *Summary;
-- (IBAction)DisplayImagen:(id)sender;
 @property(nonatomic,strong)Church*detailChurch;
 @end

@@ -15,14 +15,8 @@
 		FB0E1A7C157E7E7100908E05 /* PlaceFromLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0E1A7B157E7E7100908E05 /* PlaceFromLocation.m */; };
 		FB177C74156DECA900986AF7 /* ArqueologyDescripcionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB177C72156DECA800986AF7 /* ArqueologyDescripcionViewController.m */; };
 		FB177C75156DECA900986AF7 /* ArqueologyDescripcionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB177C73156DECA800986AF7 /* ArqueologyDescripcionViewController.xib */; };
-		FB177C79156DECC100986AF7 /* ArqueologyImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB177C77156DECC000986AF7 /* ArqueologyImageViewController.m */; };
-		FB177C7A156DECC100986AF7 /* ArqueologyImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB177C78156DECC000986AF7 /* ArqueologyImageViewController.xib */; };
 		FB18A39915707DA80098A23E /* LibraryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB18A39715707DA80098A23E /* LibraryDetailViewController.m */; };
 		FB18A39A15707DA80098A23E /* LibraryDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB18A39815707DA80098A23E /* LibraryDetailViewController.xib */; };
-		FB18A39E157096010098A23E /* LibraryImagenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB18A39C157096000098A23E /* LibraryImagenViewController.m */; };
-		FB18A39F157096010098A23E /* LibraryImagenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB18A39D157096010098A23E /* LibraryImagenViewController.xib */; };
-		FB2DEC18155D961E009A2854 /* SiteSpecificImagenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2DEC16155D961E009A2854 /* SiteSpecificImagenViewController.m */; };
-		FB2DEC19155D961E009A2854 /* SiteSpecificImagenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB2DEC17155D961E009A2854 /* SiteSpecificImagenViewController.xib */; };
 		FB2DEC1D155D9A90009A2854 /* SiteSpecificDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2DEC1B155D9A8F009A2854 /* SiteSpecificDetailViewController.m */; };
 		FB2DEC1E155D9A90009A2854 /* SiteSpecificDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB2DEC1C155D9A8F009A2854 /* SiteSpecificDetailViewController.xib */; };
 		FB46061B159A86B8009B1F0F /* chavarria@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB460608159A86B7009B1F0F /* chavarria@2x.png */; };
@@ -73,16 +67,10 @@
 		FB8D1B7515755C1C00E880FC /* icono-NO-RETINA.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D1B7415755C1C00E880FC /* icono-NO-RETINA.png */; };
 		FB91D516156EA88C00F5F818 /* ChurchDescripctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91D514156EA88A00F5F818 /* ChurchDescripctionViewController.m */; };
 		FB91D517156EA88C00F5F818 /* ChurchDescripctionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB91D515156EA88B00F5F818 /* ChurchDescripctionViewController.xib */; };
-		FB91D51B156EB06B00F5F818 /* ChurchImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91D519156EB06A00F5F818 /* ChurchImageViewController.m */; };
-		FB91D51C156EB06B00F5F818 /* ChurchImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB91D51A156EB06A00F5F818 /* ChurchImageViewController.xib */; };
 		FB91D52A156EB16700F5F818 /* SquareDescriptionController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91D528156EB16200F5F818 /* SquareDescriptionController.m */; };
 		FB91D52B156EB16700F5F818 /* SquareDescriptionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB91D529156EB16500F5F818 /* SquareDescriptionController.xib */; };
-		FB91D52F156EB1C500F5F818 /* SquareImgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91D52D156EB1BF00F5F818 /* SquareImgeViewController.m */; };
-		FB91D530156EB1C500F5F818 /* SquareImgeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB91D52E156EB1C200F5F818 /* SquareImgeViewController.xib */; };
 		FB91D534156EB2B300F5F818 /* TheatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91D532156EB2AA00F5F818 /* TheatherViewController.m */; };
 		FB91D535156EB2B300F5F818 /* TheatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB91D533156EB2AE00F5F818 /* TheatherViewController.xib */; };
-		FB91D539156EB2F500F5F818 /* TheatherImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91D537156EB2EC00F5F818 /* TheatherImageViewController.m */; };
-		FB91D53A156EB2F500F5F818 /* TheatherImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB91D538156EB2EF00F5F818 /* TheatherImageViewController.xib */; };
 		FB9F2FFC159A3CB0006F7F2C /* chavarria.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB9F2FF6159A3CB0006F7F2C /* chavarria.mp3 */; };
 		FB9F2FFD159A3CB0006F7F2C /* cinco.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB9F2FF7159A3CB0006F7F2C /* cinco.mp3 */; };
 		FB9F2FFE159A3CB0006F7F2C /* factor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB9F2FF8159A3CB0006F7F2C /* factor.mp3 */; };
@@ -148,18 +136,9 @@
 		FB177C71156DECA800986AF7 /* ArqueologyDescripcionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArqueologyDescripcionViewController.h; sourceTree = "<group>"; };
 		FB177C72156DECA800986AF7 /* ArqueologyDescripcionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArqueologyDescripcionViewController.m; sourceTree = "<group>"; };
 		FB177C73156DECA800986AF7 /* ArqueologyDescripcionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArqueologyDescripcionViewController.xib; sourceTree = "<group>"; };
-		FB177C76156DECC000986AF7 /* ArqueologyImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArqueologyImageViewController.h; sourceTree = "<group>"; };
-		FB177C77156DECC000986AF7 /* ArqueologyImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArqueologyImageViewController.m; sourceTree = "<group>"; };
-		FB177C78156DECC000986AF7 /* ArqueologyImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArqueologyImageViewController.xib; sourceTree = "<group>"; };
 		FB18A39615707DA80098A23E /* LibraryDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryDetailViewController.h; sourceTree = "<group>"; };
 		FB18A39715707DA80098A23E /* LibraryDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryDetailViewController.m; sourceTree = "<group>"; };
 		FB18A39815707DA80098A23E /* LibraryDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LibraryDetailViewController.xib; sourceTree = "<group>"; };
-		FB18A39B157096000098A23E /* LibraryImagenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryImagenViewController.h; sourceTree = "<group>"; };
-		FB18A39C157096000098A23E /* LibraryImagenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryImagenViewController.m; sourceTree = "<group>"; };
-		FB18A39D157096010098A23E /* LibraryImagenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LibraryImagenViewController.xib; sourceTree = "<group>"; };
-		FB2DEC15155D961E009A2854 /* SiteSpecificImagenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiteSpecificImagenViewController.h; sourceTree = "<group>"; };
-		FB2DEC16155D961E009A2854 /* SiteSpecificImagenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiteSpecificImagenViewController.m; sourceTree = "<group>"; };
-		FB2DEC17155D961E009A2854 /* SiteSpecificImagenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SiteSpecificImagenViewController.xib; sourceTree = "<group>"; };
 		FB2DEC1A155D9A8F009A2854 /* SiteSpecificDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiteSpecificDetailViewController.h; sourceTree = "<group>"; };
 		FB2DEC1B155D9A8F009A2854 /* SiteSpecificDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiteSpecificDetailViewController.m; sourceTree = "<group>"; };
 		FB2DEC1C155D9A8F009A2854 /* SiteSpecificDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SiteSpecificDetailViewController.xib; sourceTree = "<group>"; };
@@ -232,21 +211,12 @@
 		FB91D513156EA88A00F5F818 /* ChurchDescripctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChurchDescripctionViewController.h; sourceTree = "<group>"; };
 		FB91D514156EA88A00F5F818 /* ChurchDescripctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChurchDescripctionViewController.m; sourceTree = "<group>"; };
 		FB91D515156EA88B00F5F818 /* ChurchDescripctionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChurchDescripctionViewController.xib; sourceTree = "<group>"; };
-		FB91D518156EB06900F5F818 /* ChurchImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChurchImageViewController.h; sourceTree = "<group>"; };
-		FB91D519156EB06A00F5F818 /* ChurchImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChurchImageViewController.m; sourceTree = "<group>"; };
-		FB91D51A156EB06A00F5F818 /* ChurchImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChurchImageViewController.xib; sourceTree = "<group>"; };
 		FB91D527156EB15F00F5F818 /* SquareDescriptionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareDescriptionController.h; sourceTree = "<group>"; };
 		FB91D528156EB16200F5F818 /* SquareDescriptionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareDescriptionController.m; sourceTree = "<group>"; };
 		FB91D529156EB16500F5F818 /* SquareDescriptionController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SquareDescriptionController.xib; sourceTree = "<group>"; };
-		FB91D52C156EB1BA00F5F818 /* SquareImgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareImgeViewController.h; sourceTree = "<group>"; };
-		FB91D52D156EB1BF00F5F818 /* SquareImgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareImgeViewController.m; sourceTree = "<group>"; };
-		FB91D52E156EB1C200F5F818 /* SquareImgeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SquareImgeViewController.xib; sourceTree = "<group>"; };
 		FB91D531156EB2A700F5F818 /* TheatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheatherViewController.h; sourceTree = "<group>"; };
 		FB91D532156EB2AA00F5F818 /* TheatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheatherViewController.m; sourceTree = "<group>"; };
 		FB91D533156EB2AE00F5F818 /* TheatherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TheatherViewController.xib; sourceTree = "<group>"; };
-		FB91D536156EB2E800F5F818 /* TheatherImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheatherImageViewController.h; sourceTree = "<group>"; };
-		FB91D537156EB2EC00F5F818 /* TheatherImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheatherImageViewController.m; sourceTree = "<group>"; };
-		FB91D538156EB2EF00F5F818 /* TheatherImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TheatherImageViewController.xib; sourceTree = "<group>"; };
 		FB9F2FF6159A3CB0006F7F2C /* chavarria.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chavarria.mp3; sourceTree = "<group>"; };
 		FB9F2FF7159A3CB0006F7F2C /* cinco.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cinco.mp3; sourceTree = "<group>"; };
 		FB9F2FF8159A3CB0006F7F2C /* factor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = factor.mp3; sourceTree = "<group>"; };
@@ -469,7 +439,6 @@
 		FBCCBEB4155D7EA500AE818D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FB2DEC17155D961E009A2854 /* SiteSpecificImagenViewController.xib */,
 				FB8CDCF1155D8EE9002EE695 /* LegendImageViewController.xib */,
 				FB69891A155AD448001E1398 /* Sitespecific.xib */,
 				FBE5A3481559FB4B0070BA64 /* HomeLegend.xib */,
@@ -578,32 +547,18 @@
 		FBE21AD3155D7F9F0070007A /* SiteSpecific */ = {
 			isa = PBXGroup;
 			children = (
-				FB91D52C156EB1BA00F5F818 /* SquareImgeViewController.h */,
-				FB91D52D156EB1BF00F5F818 /* SquareImgeViewController.m */,
-				FB91D52E156EB1C200F5F818 /* SquareImgeViewController.xib */,
 				FB91D527156EB15F00F5F818 /* SquareDescriptionController.h */,
 				FB91D528156EB16200F5F818 /* SquareDescriptionController.m */,
 				FB91D529156EB16500F5F818 /* SquareDescriptionController.xib */,
 				FB91D531156EB2A700F5F818 /* TheatherViewController.h */,
 				FB91D532156EB2AA00F5F818 /* TheatherViewController.m */,
 				FB91D533156EB2AE00F5F818 /* TheatherViewController.xib */,
-				FB91D536156EB2E800F5F818 /* TheatherImageViewController.h */,
-				FB91D537156EB2EC00F5F818 /* TheatherImageViewController.m */,
-				FB91D538156EB2EF00F5F818 /* TheatherImageViewController.xib */,
 				FB91D513156EA88A00F5F818 /* ChurchDescripctionViewController.h */,
 				FB91D514156EA88A00F5F818 /* ChurchDescripctionViewController.m */,
 				FB91D515156EA88B00F5F818 /* ChurchDescripctionViewController.xib */,
-				FB91D518156EB06900F5F818 /* ChurchImageViewController.h */,
-				FB91D519156EB06A00F5F818 /* ChurchImageViewController.m */,
-				FB91D51A156EB06A00F5F818 /* ChurchImageViewController.xib */,
-				FB177C76156DECC000986AF7 /* ArqueologyImageViewController.h */,
-				FB177C77156DECC000986AF7 /* ArqueologyImageViewController.m */,
-				FB177C78156DECC000986AF7 /* ArqueologyImageViewController.xib */,
 				FB177C71156DECA800986AF7 /* ArqueologyDescripcionViewController.h */,
 				FB177C72156DECA800986AF7 /* ArqueologyDescripcionViewController.m */,
 				FB177C73156DECA800986AF7 /* ArqueologyDescripcionViewController.xib */,
-				FB2DEC15155D961E009A2854 /* SiteSpecificImagenViewController.h */,
-				FB2DEC16155D961E009A2854 /* SiteSpecificImagenViewController.m */,
 				FB698918155AD448001E1398 /* Sitespecific.h */,
 				FB698919155AD448001E1398 /* Sitespecific.m */,
 				FB066541155CAE790063E739 /* SitespecificParentViewController.h */,
@@ -614,9 +569,6 @@
 				FB18A39615707DA80098A23E /* LibraryDetailViewController.h */,
 				FB18A39715707DA80098A23E /* LibraryDetailViewController.m */,
 				FB18A39815707DA80098A23E /* LibraryDetailViewController.xib */,
-				FB18A39B157096000098A23E /* LibraryImagenViewController.h */,
-				FB18A39C157096000098A23E /* LibraryImagenViewController.m */,
-				FB18A39D157096010098A23E /* LibraryImagenViewController.xib */,
 			);
 			name = SiteSpecific;
 			sourceTree = "<group>";
@@ -708,7 +660,7 @@
 		FBE5A3111559FA440070BA64 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0440;
 			};
 			buildConfigurationList = FBE5A3141559FA440070BA64 /* Build configuration list for PBXProject "DeCalleenCallee" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -743,19 +695,13 @@
 				FB066555155CD1CF0063E739 /* twitter.png in Resources */,
 				FBCCBEB0155D751A00AE818D /* LegendDetailViewController.xib in Resources */,
 				FB8CDCF3155D8EE9002EE695 /* LegendImageViewController.xib in Resources */,
-				FB2DEC19155D961E009A2854 /* SiteSpecificImagenViewController.xib in Resources */,
 				FB2DEC1E155D9A90009A2854 /* SiteSpecificDetailViewController.xib in Resources */,
 				FBD5D6AC156C643500B5F75E /* icono-RETINA-DISPLAY.png in Resources */,
 				FB177C75156DECA900986AF7 /* ArqueologyDescripcionViewController.xib in Resources */,
-				FB177C7A156DECC100986AF7 /* ArqueologyImageViewController.xib in Resources */,
 				FB91D517156EA88C00F5F818 /* ChurchDescripctionViewController.xib in Resources */,
-				FB91D51C156EB06B00F5F818 /* ChurchImageViewController.xib in Resources */,
 				FB91D52B156EB16700F5F818 /* SquareDescriptionController.xib in Resources */,
-				FB91D530156EB1C500F5F818 /* SquareImgeViewController.xib in Resources */,
 				FB91D535156EB2B300F5F818 /* TheatherViewController.xib in Resources */,
-				FB91D53A156EB2F500F5F818 /* TheatherImageViewController.xib in Resources */,
 				FB18A39A15707DA80098A23E /* LibraryDetailViewController.xib in Resources */,
-				FB18A39F157096010098A23E /* LibraryImagenViewController.xib in Resources */,
 				FBC577BA157524D200C2F7CA /* book.png in Resources */,
 				FBC577BE1575256F00C2F7CA /* map.png in Resources */,
 				FBC577C01575259700C2F7CA /* map@2x.png in Resources */,
@@ -837,7 +783,6 @@
 				FBD6F7EB155CACBC009C19BD /* MyPointChurch.m in Sources */,
 				FB066544155CAE790063E739 /* SitespecificParentViewController.m in Sources */,
 				FB8CDCF2155D8EE9002EE695 /* LegendImageViewController.m in Sources */,
-				FB2DEC18155D961E009A2854 /* SiteSpecificImagenViewController.m in Sources */,
 				FB2DEC1D155D9A90009A2854 /* SiteSpecificDetailViewController.m in Sources */,
 				FBE9F841156CC255009D5DAE /* MyPointplace.m in Sources */,
 				FBE9F845156CC321009D5DAE /* MyPointtheater.m in Sources */,
@@ -850,15 +795,10 @@
 				FBE9F89A156D5B65009D5DAE /* Square.m in Sources */,
 				FBE9F89D156D5B9B009D5DAE /* Theather.m in Sources */,
 				FB177C74156DECA900986AF7 /* ArqueologyDescripcionViewController.m in Sources */,
-				FB177C79156DECC100986AF7 /* ArqueologyImageViewController.m in Sources */,
 				FB91D516156EA88C00F5F818 /* ChurchDescripctionViewController.m in Sources */,
-				FB91D51B156EB06B00F5F818 /* ChurchImageViewController.m in Sources */,
 				FB91D52A156EB16700F5F818 /* SquareDescriptionController.m in Sources */,
-				FB91D52F156EB1C500F5F818 /* SquareImgeViewController.m in Sources */,
 				FB91D534156EB2B300F5F818 /* TheatherViewController.m in Sources */,
-				FB91D539156EB2F500F5F818 /* TheatherImageViewController.m in Sources */,
 				FB18A39915707DA80098A23E /* LibraryDetailViewController.m in Sources */,
-				FB18A39E157096010098A23E /* LibraryImagenViewController.m in Sources */,
 				FB0E1A7C157E7E7100908E05 /* PlaceFromLocation.m in Sources */,
 				FB836F8E1590DA0A0012ABED /* Legend.m in Sources */,
 			);
@@ -884,7 +824,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Xochitl Chamorro";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Xochitl Chamorro";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -899,6 +840,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "460CF619-C4CA-423F-A19E-ED1F702A9F7F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "460CF619-C4CA-423F-A19E-ED1F702A9F7F";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -909,7 +852,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Xochitl Chamorro";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Xochitl Chamorro";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -918,6 +862,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "460CF619-C4CA-423F-A19E-ED1F702A9F7F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "460CF619-C4CA-423F-A19E-ED1F702A9F7F";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -926,10 +872,12 @@
 		FBE5A3441559FA450070BA64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Xochitl Chamorro (Q2NXQ77YXU)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DeCalleenCallee/DeCalleenCallee-Prefix.pch";
 				INFOPLIST_FILE = "DeCalleenCallee/DeCalleenCallee-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "DB76438F-A17E-45FE-A2C2-7BF07B20C539";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -937,10 +885,12 @@
 		FBE5A3451559FA450070BA64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Xochitl Chamorro (Q2NXQ77YXU)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DeCalleenCallee/DeCalleenCallee-Prefix.pch";
 				INFOPLIST_FILE = "DeCalleenCallee/DeCalleenCallee-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "DB76438F-A17E-45FE-A2C2-7BF07B20C539";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -7,7 +7,7 @@
 //
 
 #import "SiteSpecificDetailViewController.h"
-#import "SiteSpecificImagenViewController.h"
+
 #import "Museum.h"
 
 @implementation SiteSpecificDetailViewController
@@ -68,12 +68,5 @@
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
-- (IBAction)ImagenDisplaySite:(id)sender {
-    
-    SiteSpecificImagenViewController *presentImage=[[SiteSpecificImagenViewController alloc]initWithNibName:@"SiteSpecificImagenViewController" bundle:nil];
-    [presentImage setDetailMuseum:_detailMuseum];
-    [self.navigationController pushViewController:presentImage animated:YES];
-    
-    
-}
+
 @end

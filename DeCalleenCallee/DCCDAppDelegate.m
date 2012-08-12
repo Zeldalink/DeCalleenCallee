@@ -28,7 +28,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
+    //[[UIApplication sharedApplication] setStatusBarHidden:YES
+      //                                      withAnimation:NO];
     facebook = [[Facebook alloc] initWithAppId:@"225902810852696" andDelegate:self];
     NSManagedObjectContext *context = self.managedObjectContext;
     

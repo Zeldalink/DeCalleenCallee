@@ -12,7 +12,7 @@
 @interface LibraryDetailViewController : UIViewController{
     Library *detailLibrary;
 }
-- (IBAction)imagenDisplay:(id)sender;
+
 
 @property (weak, nonatomic) IBOutlet UITextView *Summary;
 @property (weak, nonatomic) IBOutlet UITextView *Title;

@@ -7,7 +7,7 @@
 //
 
 #import "TheatherViewController.h"
-#import "TheatherImageViewController.h"
+
 @implementation TheatherViewController
 @synthesize Summary=_Summary;
 @synthesize Title=_Title;
@@ -66,9 +66,4 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-- (IBAction)ImagenDisplay:(id)sender {
-    TheatherImageViewController *imagen=[[TheatherImageViewController alloc]initWithNibName:@"TheatherImageViewController" bundle:nil];
-    [imagen setDetailTheater:_detailTheather];
-    [self.navigationController pushViewController:imagen animated:YES];
-}
 @end

@@ -7,7 +7,7 @@
 //
 
 #import "SquareDescriptionController.h"
-#import "SquareImgeViewController.h"
+
 
 @implementation SquareDescriptionController
 @synthesize Summary=_Summary;
@@ -66,9 +66,4 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-- (IBAction)ImagenDisplay:(id)sender {
-    SquareImgeViewController *imagen=[[SquareImgeViewController alloc]initWithNibName:@"SquareImgeViewController" bundle:nil];
-    [imagen setDetailSquare:_detailSquare];
-    [self.navigationController pushViewController:imagen animated:YES];
-}
 @end

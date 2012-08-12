@@ -18,7 +18,6 @@
 @synthesize TitleLegend = _TitleLegend;
 @synthesize facebook;
 @synthesize detailLegend = _detailLegend;
-@synthesize audioPlayer;
 @synthesize permissions;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -61,7 +60,7 @@
    NSString *musicPath=[[NSBundle mainBundle]pathForResource:[_detailLegend audioLegend] ofType:@"mp3"];
     NSURL *musicURL=[NSURL fileURLWithPath:musicPath];
     audioPlayer=[[AVAudioPlayer alloc]initWithContentsOfURL:musicURL error:nil];
-   
+    [audioPlayer setDelegate:self];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     if ([defaults objectForKey:@"FBAccessTokenKey"] 
         && [defaults objectForKey:@"FBExpirationDateKey"]) {
@@ -73,10 +72,6 @@
                                 @"user_likes", 
                                 @"read_stream",
                                 nil];
-      
-        
-    
-
 
    // NSLog(@"Current legend name : %@",[_detailLegend legendName]);
     // Do any additional setup after loading the view from its nib.
@@ -89,7 +84,10 @@
     [self setTitleLegend:nil];
     [self setSummaryLegend:nil];
     backgroundImage = nil;
+    audioPlayer=nil;
+    audioButton=nil;
     [super viewDidUnload];
+   
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
@@ -99,6 +97,7 @@
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
+#pragma mark - Twitter
 
 - (IBAction)TwitterPost:(id)sender {
     
@@ -109,36 +108,47 @@
     [self presentModalViewController:tweetController animated:YES];
 
 }
+#pragma mark - Audio File
 
 - (IBAction)playMovie:(id)sender {
     if([audioPlayer isPlaying]){
         [audioPlayer stop];
-       [audioButton setImage:[UIImage imageNamed:@"folder_music.png"] forState:UIControlStateNormal];
-    
+        [audioButton setImage:[UIImage imageNamed:@"folder_music.png"] forState:UIControlStateNormal];
+
     }
     else {
         [audioPlayer play];
-            [audioButton setImage:[UIImage imageNamed:@"folder_musicba.png"] forState:UIControlStateNormal];
-        [sender setTitle:@"stop" forState:UIControlStateNormal];
+        
+        [audioButton setImage:[UIImage imageNamed:@"folder_musicba.png"] forState:UIControlStateNormal];
     }
+    
 }
 -(void)audioPlayerBeginInterruption:(AVAudioPlayer *)player{
-    [audioButton setImage:[UIImage imageNamed:@"folder_musicba.png"] forState:UIControlStateNormal];
     [audioPlayer play];
+  
 }
 -(void)audioPlayerEndInterruption:(AVAudioPlayer *)player{
+    
     [audioPlayer play];
-    [audioButton setImage:[UIImage imageNamed:@"folder_music.png"] forState:UIControlStateNormal];
+    
 }
+
+- (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag{
+    [audioButton setImage:[UIImage imageNamed:@"folder_music.png"] forState:UIControlStateNormal];
+    
+
+}
+
+#pragma mark - Image
+
 - (IBAction)playImage:(id)sender {
     
     LegendImageViewController *presentImage=[[LegendImageViewController alloc]initWithNibName:@"LegendImageViewController" bundle:nil];
     [presentImage setDetailLegend:_detailLegend];
     [self.navigationController pushViewController:presentImage animated:YES];
-
     
-
 }
+#pragma mark - Facebook
 - (void)fbDidLogin {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setObject:[facebook accessToken] forKey:@"FBAccessTokenKey"];

@@ -28,6 +28,5 @@
 
 @property (weak, nonatomic) IBOutlet UITextView *Summary;
 
-- (IBAction)ImagenDisplaySite:(id)sender;
 
 @end

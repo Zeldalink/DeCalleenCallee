@@ -13,28 +13,24 @@
 #import "Legend.h"
 #import "FBConnect.h"
 #import "JSON.h"
+
 @interface LegendDescriptionViewController : UIViewController<AVAudioPlayerDelegate,FBSessionDelegate,FBDialogDelegate>
 {
     __weak IBOutlet UIImageView *backgroundImage;
     Legend *detailLegend;
-    IBOutlet UIButton *audioButton;
-    AVAudioPlayer *audioPlayer;
+    __weak IBOutlet UIButton *audioButton;
+     AVAudioPlayer *audioPlayer;
     Facebook *facebook;
-    NSArray *permissions
-    ;
+    NSArray *permissions;
 }
 
 @property(nonatomic,retain)Facebook *facebook;
-- (void) feedDialogButtonClicked;
-
 @property (nonatomic, retain) NSArray *permissions;
-
 @property (weak, nonatomic) IBOutlet UITextView *SummaryLegend;
 @property (weak, nonatomic) IBOutlet UITextView *TitleLegend;
-@property(strong)    AVAudioPlayer *audioPlayer;
-
-
 @property (nonatomic,strong) Legend *detailLegend;
+
+- (void) feedDialogButtonClicked;
 - (IBAction)TwitterPost:(id)sender;
 - (IBAction)playMovie:(id)sender;
 - (IBAction)playImage:(id)sender;

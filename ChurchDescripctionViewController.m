@@ -7,7 +7,6 @@
 //
 
 #import "ChurchDescripctionViewController.h"
-#import "ChurchImageViewController.h"
 
 @implementation ChurchDescripctionViewController
 @synthesize Title=_Title;
@@ -66,10 +65,5 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-- (IBAction)DisplayImagen:(id)sender {
-    ChurchImageViewController *imagenDisplay=[[ChurchImageViewController alloc]initWithNibName:@"ChurchImageViewController" bundle:nil];
-    [imagenDisplay setDetailChurch:_detailChurch];
-    [self.navigationController pushViewController:imagenDisplay animated:YES];
-    
-}
+
 @end

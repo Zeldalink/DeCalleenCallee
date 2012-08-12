@@ -7,7 +7,7 @@
 //
 
 #import "LibraryDetailViewController.h"
-#import "LibraryImagenViewController.h"
+
 @implementation LibraryDetailViewController
 
 @synthesize Summary=_Summary;
@@ -65,10 +65,5 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-- (IBAction)imagenDisplay:(id)sender {
-    LibraryImagenViewController *imagen=[[LibraryImagenViewController alloc]initWithNibName:@"LibraryImagenViewController" bundle:nil];
-    [imagen setDetailLibrary:_detailLibrary];
-    [self.navigationController pushViewController:imagen animated:YES];
-    
-}
+
 @end

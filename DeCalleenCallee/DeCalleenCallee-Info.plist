@@ -51,15 +51,6 @@
 			<array>
 				<string>fb225902810852696</string>
 			</array>
-			<key>CFBundleURLTypes</key>
-			<array>
-				<dict>
-					<key>CFBundleURLSchemes</key>
-					<array>
-						<string>fb225902810852696</string>
-					</array>
-				</dict>
-			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
@@ -70,6 +61,8 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIStatusBarHidden</key>
+	<true/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
