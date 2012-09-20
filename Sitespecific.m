@@ -62,7 +62,7 @@
     [self.navigationItem setTitle:@"De Calle en Calle"];
     [self.navigationController.navigationBar setBarStyle:UIBarStyleBlack];
     UIBarButtonItem *tempral=[[UIBarButtonItem alloc]init];
-    tempral.title=@"Regresar";
+    tempral.title=@"Atrás";
     self.navigationItem.backBarButtonItem =tempral;
 
     self.locationManager = [[CLLocationManager alloc] init];
@@ -85,6 +85,7 @@
     _mapView.delegate=self;
 } 
 
+#pragma mark - Difference about Categories of sites in Map
 
 - (MKAnnotationView *)mapView:(MKMapView *)map viewForAnnotation:(id <MKAnnotation>)annotation
 {   
@@ -179,6 +180,7 @@
     
     
 }
+#pragma mark - Show Detail about Categories
 
 
 - (void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control
@@ -245,6 +247,8 @@
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
+#pragma mark - 
+
 - (void) centerMapOnUserLocation
 {
 	sortedVenues = [self sortVenues:nearestPlaces];
@@ -329,6 +333,8 @@
 	[self centerMapOnUserLocation];
 	[self.locationManager stopUpdatingLocation];
     
+    [self.locationManager stopMonitoringSignificantLocationChanges];
+    
 }
 - (void)locationManager:(CLLocationManager *)manager
 	   didFailWithError:(NSError *)error
@@ -342,6 +348,7 @@
 	[self centerMapOnUserLocation];
 	[self.locationManager stopUpdatingLocation];
 	
+    [self.locationManager stopMonitoringSignificantLocationChanges];
 	
 }
 
@@ -360,6 +367,7 @@
 	}
 	
 }
+#pragma mark - Read Sites from Core Data and save in NSArray
 -(void)siteSpecific:(CLLocation *)newLocation{
     
     DCCDAppDelegate *delegate=(DCCDAppDelegate *)[[UIApplication sharedApplication] delegate];

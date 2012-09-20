@@ -19,6 +19,8 @@
 		FB18A39A15707DA80098A23E /* LibraryDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB18A39815707DA80098A23E /* LibraryDetailViewController.xib */; };
 		FB2DEC1D155D9A90009A2854 /* SiteSpecificDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2DEC1B155D9A8F009A2854 /* SiteSpecificDetailViewController.m */; };
 		FB2DEC1E155D9A90009A2854 /* SiteSpecificDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB2DEC1C155D9A8F009A2854 /* SiteSpecificDetailViewController.xib */; };
+		FB2FB29C15D9C01F0032C99E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2FB29B15D9C01F0032C99E /* QuartzCore.framework */; };
+		FB44216B15E45D2C0079EE5B /* library.png in Resources */ = {isa = PBXBuildFile; fileRef = FB44216A15E45D2C0079EE5B /* library.png */; };
 		FB46061B159A86B8009B1F0F /* chavarria@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB460608159A86B7009B1F0F /* chavarria@2x.png */; };
 		FB46061C159A86B8009B1F0F /* cinco@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB460609159A86B7009B1F0F /* cinco@2x.png */; };
 		FB46061D159A86B8009B1F0F /* cristo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB46060A159A86B7009B1F0F /* cristo@2x.png */; };
@@ -54,23 +56,24 @@
 		FB66441B155AF903006B67AC /* MyPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = FB66441A155AF903006B67AC /* MyPoint.m */; };
 		FB66441F155AFA4B006B67AC /* LegendDescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB66441D155AFA4B006B67AC /* LegendDescriptionViewController.m */; };
 		FB664420155AFA4B006B67AC /* LegendDescriptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB66441E155AFA4B006B67AC /* LegendDescriptionViewController.xib */; };
-		FB664422155AFC1E006B67AC /* library.png in Resources */ = {isa = PBXBuildFile; fileRef = FB664421155AFC1E006B67AC /* library.png */; };
 		FB698917155ACA79001E1398 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB698916155ACA79001E1398 /* CoreLocation.framework */; };
 		FB69891B155AD448001E1398 /* Sitespecific.m in Sources */ = {isa = PBXBuildFile; fileRef = FB698919155AD448001E1398 /* Sitespecific.m */; };
 		FB69891C155AD448001E1398 /* Sitespecific.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB69891A155AD448001E1398 /* Sitespecific.xib */; };
 		FB698920155AE25B001E1398 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB69891E155AE25A001E1398 /* HomeViewController.m */; };
 		FB698921155AE25B001E1398 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB69891F155AE25A001E1398 /* HomeViewController.xib */; };
-		FB836F8E1590DA0A0012ABED /* Legend.m in Sources */ = {isa = PBXBuildFile; fileRef = FB836F8D1590DA0A0012ABED /* Legend.m */; };
-		FB836F9215911B9C0012ABED /* DeCalleenCallee.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = FB836F9115911B9C0012ABED /* DeCalleenCallee.sqlite */; };
+		FB70637316061B3D00DBE562 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB70637216061B3D00DBE562 /* Default-568h@2x.png */; };
+		FB747ECB15FAEBE2007C60AF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD1A18F15A215E6009F0007 /* Default.png */; };
+		FB747ECC15FAEBF3007C60AF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD1A18D15A215E3009F0007 /* Default@2x.png */; };
 		FB8CDCF2155D8EE9002EE695 /* LegendImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8CDCF0155D8EE9002EE695 /* LegendImageViewController.m */; };
 		FB8CDCF3155D8EE9002EE695 /* LegendImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB8CDCF1155D8EE9002EE695 /* LegendImageViewController.xib */; };
-		FB8D1B7515755C1C00E880FC /* icono-NO-RETINA.png in Resources */ = {isa = PBXBuildFile; fileRef = FB8D1B7415755C1C00E880FC /* icono-NO-RETINA.png */; };
 		FB91D516156EA88C00F5F818 /* ChurchDescripctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91D514156EA88A00F5F818 /* ChurchDescripctionViewController.m */; };
 		FB91D517156EA88C00F5F818 /* ChurchDescripctionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB91D515156EA88B00F5F818 /* ChurchDescripctionViewController.xib */; };
 		FB91D52A156EB16700F5F818 /* SquareDescriptionController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91D528156EB16200F5F818 /* SquareDescriptionController.m */; };
 		FB91D52B156EB16700F5F818 /* SquareDescriptionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB91D529156EB16500F5F818 /* SquareDescriptionController.xib */; };
 		FB91D534156EB2B300F5F818 /* TheatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91D532156EB2AA00F5F818 /* TheatherViewController.m */; };
 		FB91D535156EB2B300F5F818 /* TheatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB91D533156EB2AE00F5F818 /* TheatherViewController.xib */; };
+		FB99980115F94E2B00044C86 /* statue.png in Resources */ = {isa = PBXBuildFile; fileRef = FB99980015F94E2B00044C86 /* statue.png */; };
+		FB99980415F94E3C00044C86 /* palace.png in Resources */ = {isa = PBXBuildFile; fileRef = FB99980315F94E3C00044C86 /* palace.png */; };
 		FB9F2FFC159A3CB0006F7F2C /* chavarria.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB9F2FF6159A3CB0006F7F2C /* chavarria.mp3 */; };
 		FB9F2FFD159A3CB0006F7F2C /* cinco.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB9F2FF7159A3CB0006F7F2C /* cinco.mp3 */; };
 		FB9F2FFE159A3CB0006F7F2C /* factor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB9F2FF8159A3CB0006F7F2C /* factor.mp3 */; };
@@ -82,7 +85,7 @@
 		FBC577BE1575256F00C2F7CA /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC577BD1575256F00C2F7CA /* map.png */; };
 		FBC577C01575259700C2F7CA /* map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC577BF1575259700C2F7CA /* map@2x.png */; };
 		FBC577C2157525CC00C2F7CA /* book@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC577C1157525CC00C2F7CA /* book@2x.png */; };
-		FBC760FF15A21920003BADD0 /* adanza.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBC760FE15A21920003BADD0 /* adanza.mp3 */; };
+		FBC760FF15A21920003BADD0 /* adanza1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBC760FE15A21920003BADD0 /* adanza1.mp3 */; };
 		FBCCBEB0155D751A00AE818D /* LegendDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBCCBEAE155D751900AE818D /* LegendDetailViewController.xib */; };
 		FBCD5576159388B000CF6F91 /* theater.png in Resources */ = {isa = PBXBuildFile; fileRef = FBCD5570159388AF00CF6F91 /* theater.png */; };
 		FBCD5577159388B000CF6F91 /* arqueology.png in Resources */ = {isa = PBXBuildFile; fileRef = FBCD5571159388AF00CF6F91 /* arqueology.png */; };
@@ -90,16 +93,16 @@
 		FBCD5579159388B000CF6F91 /* museum.png in Resources */ = {isa = PBXBuildFile; fileRef = FBCD5573159388B000CF6F91 /* museum.png */; };
 		FBCD557A159388B000CF6F91 /* libraryb.png in Resources */ = {isa = PBXBuildFile; fileRef = FBCD5574159388B000CF6F91 /* libraryb.png */; };
 		FBCD557B159388B000CF6F91 /* church.png in Resources */ = {isa = PBXBuildFile; fileRef = FBCD5575159388B000CF6F91 /* church.png */; };
-		FBD1A18E15A215E3009F0007 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD1A18D15A215E3009F0007 /* Default@2x.png */; };
-		FBD1A19015A215E6009F0007 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD1A18F15A215E6009F0007 /* Default.png */; };
 		FBD4F1D115A3DAF40003DDB2 /* folder_musicba.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD4F1D015A3DAF40003DDB2 /* folder_musicba.png */; };
 		FBD4F1D415A3EB9B0003DDB2 /* folder_music.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD4F1D315A3EB9B0003DDB2 /* folder_music.png */; };
 		FBD5B009157C3A78006F2488 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD5B008157C3A78006F2488 /* facebook.png */; };
-		FBD5D6AC156C643500B5F75E /* icono-RETINA-DISPLAY.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD5D6AB156C643500B5F75E /* icono-RETINA-DISPLAY.png */; };
 		FBD6F7DE155C849C009C19BD /* MyPointMuseum.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD6F7DD155C849C009C19BD /* MyPointMuseum.m */; };
 		FBD6F7EB155CACBC009C19BD /* MyPointChurch.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD6F7EA155CACBC009C19BD /* MyPointChurch.m */; };
 		FBDA7C9F155C1ABB0069B49C /* LegendParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDA7C9D155C1ABB0069B49C /* LegendParentViewController.m */; };
 		FBDA7CA0155C1ABB0069B49C /* LegendParentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBDA7C9E155C1ABB0069B49C /* LegendParentViewController.xib */; };
+		FBE5392B15FE766B00E13893 /* icono-app-57px.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE5392A15FE766B00E13893 /* icono-app-57px.png */; };
+		FBE5392E15FE766F00E13893 /* icono-app114.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE5392D15FE766F00E13893 /* icono-app114.png */; };
+		FBE5393215FEB1A000E13893 /* Building.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE5393115FEB1A000E13893 /* Building.m */; };
 		FBE5A31F1559FA450070BA64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE5A31E1559FA450070BA64 /* UIKit.framework */; };
 		FBE5A3211559FA450070BA64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE5A3201559FA450070BA64 /* Foundation.framework */; };
 		FBE5A3231559FA450070BA64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE5A3221559FA450070BA64 /* CoreGraphics.framework */; };
@@ -115,12 +118,14 @@
 		FBE9F845156CC321009D5DAE /* MyPointtheater.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE9F844156CC321009D5DAE /* MyPointtheater.m */; };
 		FBE9F848156CC349009D5DAE /* MyPointLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE9F847156CC349009D5DAE /* MyPointLibrary.m */; };
 		FBE9F84B156CC364009D5DAE /* MyPointarqueology.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE9F84A156CC364009D5DAE /* MyPointarqueology.m */; };
-		FBE9F88E156D5A94009D5DAE /* Arqueology.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE9F88D156D5A94009D5DAE /* Arqueology.m */; };
-		FBE9F891156D5AA7009D5DAE /* Church.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE9F890156D5AA7009D5DAE /* Church.m */; };
-		FBE9F894156D5B38009D5DAE /* Library.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE9F893156D5B38009D5DAE /* Library.m */; };
-		FBE9F897156D5B4B009D5DAE /* Museum.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE9F896156D5B4B009D5DAE /* Museum.m */; };
-		FBE9F89A156D5B65009D5DAE /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE9F899156D5B65009D5DAE /* Square.m */; };
-		FBE9F89D156D5B9B009D5DAE /* Theather.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE9F89C156D5B9B009D5DAE /* Theather.m */; };
+		FBEE5072160A3D840090D75E /* DeCalleenCallee.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = FBEE5071160A3D840090D75E /* DeCalleenCallee.sqlite */; };
+		FBF90D9D15FC613B00FA2672 /* Arqueology.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF90D9C15FC613B00FA2672 /* Arqueology.m */; };
+		FBF90DA015FC619D00FA2672 /* Theather.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF90D9F15FC619D00FA2672 /* Theather.m */; };
+		FBF90DA315FC61A000FA2672 /* Legend.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF90DA215FC61A000FA2672 /* Legend.m */; };
+		FBF90DA615FC61A000FA2672 /* Museum.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF90DA515FC61A000FA2672 /* Museum.m */; };
+		FBF90DA915FC61A100FA2672 /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF90DA815FC61A100FA2672 /* Square.m */; };
+		FBF90DAC15FC61A100FA2672 /* Church.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF90DAB15FC61A100FA2672 /* Church.m */; };
+		FBF90DAF15FC61A200FA2672 /* Library.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF90DAE15FC61A200FA2672 /* Library.m */; };
 		FBF963E3159EBEC0006116B8 /* veneno.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBF963E2159EBEC0006116B8 /* veneno.mp3 */; };
 /* End PBXBuildFile section */
 
@@ -142,6 +147,9 @@
 		FB2DEC1A155D9A8F009A2854 /* SiteSpecificDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiteSpecificDetailViewController.h; sourceTree = "<group>"; };
 		FB2DEC1B155D9A8F009A2854 /* SiteSpecificDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiteSpecificDetailViewController.m; sourceTree = "<group>"; };
 		FB2DEC1C155D9A8F009A2854 /* SiteSpecificDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SiteSpecificDetailViewController.xib; sourceTree = "<group>"; };
+		FB2FB29815D9B4BE0032C99E /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		FB2FB29B15D9C01F0032C99E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FB44216A15E45D2C0079EE5B /* library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = library.png; sourceTree = "<group>"; };
 		FB460608159A86B7009B1F0F /* chavarria@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chavarria@2x.png"; sourceTree = "<group>"; };
 		FB460609159A86B7009B1F0F /* cinco@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cinco@2x.png"; sourceTree = "<group>"; };
 		FB46060A159A86B7009B1F0F /* cristo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cristo@2x.png"; sourceTree = "<group>"; };
@@ -193,7 +201,6 @@
 		FB66441C155AFA4B006B67AC /* LegendDescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegendDescriptionViewController.h; sourceTree = "<group>"; };
 		FB66441D155AFA4B006B67AC /* LegendDescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegendDescriptionViewController.m; sourceTree = "<group>"; };
 		FB66441E155AFA4B006B67AC /* LegendDescriptionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LegendDescriptionViewController.xib; sourceTree = "<group>"; };
-		FB664421155AFC1E006B67AC /* library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = library.png; sourceTree = "<group>"; };
 		FB698916155ACA79001E1398 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		FB698918155AD448001E1398 /* Sitespecific.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sitespecific.h; sourceTree = "<group>"; };
 		FB698919155AD448001E1398 /* Sitespecific.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sitespecific.m; sourceTree = "<group>"; };
@@ -201,13 +208,10 @@
 		FB69891D155AE25A001E1398 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		FB69891E155AE25A001E1398 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		FB69891F155AE25A001E1398 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		FB836F8C1590DA0A0012ABED /* Legend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Legend.h; path = DeCalleenCallee/Legend.h; sourceTree = "<group>"; };
-		FB836F8D1590DA0A0012ABED /* Legend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Legend.m; path = DeCalleenCallee/Legend.m; sourceTree = "<group>"; };
-		FB836F9115911B9C0012ABED /* DeCalleenCallee.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = DeCalleenCallee.sqlite; sourceTree = "<group>"; };
+		FB70637216061B3D00DBE562 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FB8CDCEF155D8EE9002EE695 /* LegendImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegendImageViewController.h; sourceTree = "<group>"; };
 		FB8CDCF0155D8EE9002EE695 /* LegendImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegendImageViewController.m; sourceTree = "<group>"; };
 		FB8CDCF1155D8EE9002EE695 /* LegendImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LegendImageViewController.xib; sourceTree = "<group>"; };
-		FB8D1B7415755C1C00E880FC /* icono-NO-RETINA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icono-NO-RETINA.png"; sourceTree = "<group>"; };
 		FB91D513156EA88A00F5F818 /* ChurchDescripctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChurchDescripctionViewController.h; sourceTree = "<group>"; };
 		FB91D514156EA88A00F5F818 /* ChurchDescripctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChurchDescripctionViewController.m; sourceTree = "<group>"; };
 		FB91D515156EA88B00F5F818 /* ChurchDescripctionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChurchDescripctionViewController.xib; sourceTree = "<group>"; };
@@ -217,6 +221,8 @@
 		FB91D531156EB2A700F5F818 /* TheatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheatherViewController.h; sourceTree = "<group>"; };
 		FB91D532156EB2AA00F5F818 /* TheatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheatherViewController.m; sourceTree = "<group>"; };
 		FB91D533156EB2AE00F5F818 /* TheatherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TheatherViewController.xib; sourceTree = "<group>"; };
+		FB99980015F94E2B00044C86 /* statue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statue.png; sourceTree = "<group>"; };
+		FB99980315F94E3C00044C86 /* palace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = palace.png; sourceTree = "<group>"; };
 		FB9F2FF6159A3CB0006F7F2C /* chavarria.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chavarria.mp3; sourceTree = "<group>"; };
 		FB9F2FF7159A3CB0006F7F2C /* cinco.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cinco.mp3; sourceTree = "<group>"; };
 		FB9F2FF8159A3CB0006F7F2C /* factor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = factor.mp3; sourceTree = "<group>"; };
@@ -228,7 +234,7 @@
 		FBC577BD1575256F00C2F7CA /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
 		FBC577BF1575259700C2F7CA /* map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map@2x.png"; sourceTree = "<group>"; };
 		FBC577C1157525CC00C2F7CA /* book@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "book@2x.png"; sourceTree = "<group>"; };
-		FBC760FE15A21920003BADD0 /* adanza.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adanza.mp3; sourceTree = "<group>"; };
+		FBC760FE15A21920003BADD0 /* adanza1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adanza1.mp3; sourceTree = "<group>"; };
 		FBCCBEAE155D751900AE818D /* LegendDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LegendDetailViewController.xib; sourceTree = "<group>"; };
 		FBCD5570159388AF00CF6F91 /* theater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theater.png; sourceTree = "<group>"; };
 		FBCD5571159388AF00CF6F91 /* arqueology.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arqueology.png; sourceTree = "<group>"; };
@@ -241,7 +247,6 @@
 		FBD4F1D015A3DAF40003DDB2 /* folder_musicba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folder_musicba.png; sourceTree = "<group>"; };
 		FBD4F1D315A3EB9B0003DDB2 /* folder_music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folder_music.png; sourceTree = "<group>"; };
 		FBD5B008157C3A78006F2488 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
-		FBD5D6AB156C643500B5F75E /* icono-RETINA-DISPLAY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icono-RETINA-DISPLAY.png"; sourceTree = "<group>"; };
 		FBD6F7DC155C849C009C19BD /* MyPointMuseum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPointMuseum.h; sourceTree = "<group>"; };
 		FBD6F7DD155C849C009C19BD /* MyPointMuseum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPointMuseum.m; sourceTree = "<group>"; };
 		FBD6F7E9155CACBC009C19BD /* MyPointChurch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPointChurch.h; sourceTree = "<group>"; };
@@ -249,6 +254,10 @@
 		FBDA7C9C155C1ABB0069B49C /* LegendParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegendParentViewController.h; sourceTree = "<group>"; };
 		FBDA7C9D155C1ABB0069B49C /* LegendParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegendParentViewController.m; sourceTree = "<group>"; };
 		FBDA7C9E155C1ABB0069B49C /* LegendParentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LegendParentViewController.xib; sourceTree = "<group>"; };
+		FBE5392A15FE766B00E13893 /* icono-app-57px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icono-app-57px.png"; sourceTree = "<group>"; };
+		FBE5392D15FE766F00E13893 /* icono-app114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icono-app114.png"; sourceTree = "<group>"; };
+		FBE5393015FEB1A000E13893 /* Building.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Building.h; path = DeCalleenCallee/Building.h; sourceTree = "<group>"; };
+		FBE5393115FEB1A000E13893 /* Building.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Building.m; path = DeCalleenCallee/Building.m; sourceTree = "<group>"; };
 		FBE5A31A1559FA450070BA64 /* DeCalleenCallee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeCalleenCallee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE5A31E1559FA450070BA64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FBE5A3201559FA450070BA64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -273,18 +282,21 @@
 		FBE9F847156CC349009D5DAE /* MyPointLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPointLibrary.m; sourceTree = "<group>"; };
 		FBE9F849156CC364009D5DAE /* MyPointarqueology.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPointarqueology.h; sourceTree = "<group>"; };
 		FBE9F84A156CC364009D5DAE /* MyPointarqueology.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPointarqueology.m; sourceTree = "<group>"; };
-		FBE9F88C156D5A94009D5DAE /* Arqueology.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Arqueology.h; path = DeCalleenCallee/Arqueology.h; sourceTree = "<group>"; };
-		FBE9F88D156D5A94009D5DAE /* Arqueology.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Arqueology.m; path = DeCalleenCallee/Arqueology.m; sourceTree = "<group>"; };
-		FBE9F88F156D5AA7009D5DAE /* Church.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Church.h; path = DeCalleenCallee/Church.h; sourceTree = "<group>"; };
-		FBE9F890156D5AA7009D5DAE /* Church.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Church.m; path = DeCalleenCallee/Church.m; sourceTree = "<group>"; };
-		FBE9F892156D5B38009D5DAE /* Library.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Library.h; path = DeCalleenCallee/Library.h; sourceTree = "<group>"; };
-		FBE9F893156D5B38009D5DAE /* Library.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Library.m; path = DeCalleenCallee/Library.m; sourceTree = "<group>"; };
-		FBE9F895156D5B4B009D5DAE /* Museum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Museum.h; path = DeCalleenCallee/Museum.h; sourceTree = "<group>"; };
-		FBE9F896156D5B4B009D5DAE /* Museum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Museum.m; path = DeCalleenCallee/Museum.m; sourceTree = "<group>"; };
-		FBE9F898156D5B65009D5DAE /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Square.h; path = DeCalleenCallee/Square.h; sourceTree = "<group>"; };
-		FBE9F899156D5B65009D5DAE /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Square.m; path = DeCalleenCallee/Square.m; sourceTree = "<group>"; };
-		FBE9F89B156D5B9B009D5DAE /* Theather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Theather.h; path = DeCalleenCallee/Theather.h; sourceTree = "<group>"; };
-		FBE9F89C156D5B9B009D5DAE /* Theather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Theather.m; path = DeCalleenCallee/Theather.m; sourceTree = "<group>"; };
+		FBEE5071160A3D840090D75E /* DeCalleenCallee.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = DeCalleenCallee.sqlite; sourceTree = "<group>"; };
+		FBF90D9B15FC613B00FA2672 /* Arqueology.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Arqueology.h; path = DeCalleenCallee/Arqueology.h; sourceTree = "<group>"; };
+		FBF90D9C15FC613B00FA2672 /* Arqueology.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Arqueology.m; path = DeCalleenCallee/Arqueology.m; sourceTree = "<group>"; };
+		FBF90D9E15FC619D00FA2672 /* Theather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Theather.h; path = DeCalleenCallee/Theather.h; sourceTree = "<group>"; };
+		FBF90D9F15FC619D00FA2672 /* Theather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Theather.m; path = DeCalleenCallee/Theather.m; sourceTree = "<group>"; };
+		FBF90DA115FC61A000FA2672 /* Legend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Legend.h; path = DeCalleenCallee/Legend.h; sourceTree = "<group>"; };
+		FBF90DA215FC61A000FA2672 /* Legend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Legend.m; path = DeCalleenCallee/Legend.m; sourceTree = "<group>"; };
+		FBF90DA415FC61A000FA2672 /* Museum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Museum.h; path = DeCalleenCallee/Museum.h; sourceTree = "<group>"; };
+		FBF90DA515FC61A000FA2672 /* Museum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Museum.m; path = DeCalleenCallee/Museum.m; sourceTree = "<group>"; };
+		FBF90DA715FC61A000FA2672 /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Square.h; path = DeCalleenCallee/Square.h; sourceTree = "<group>"; };
+		FBF90DA815FC61A100FA2672 /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Square.m; path = DeCalleenCallee/Square.m; sourceTree = "<group>"; };
+		FBF90DAA15FC61A100FA2672 /* Church.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Church.h; path = DeCalleenCallee/Church.h; sourceTree = "<group>"; };
+		FBF90DAB15FC61A100FA2672 /* Church.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Church.m; path = DeCalleenCallee/Church.m; sourceTree = "<group>"; };
+		FBF90DAD15FC61A200FA2672 /* Library.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Library.h; path = DeCalleenCallee/Library.h; sourceTree = "<group>"; };
+		FBF90DAE15FC61A200FA2672 /* Library.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Library.m; path = DeCalleenCallee/Library.m; sourceTree = "<group>"; };
 		FBF963E2159EBEC0006116B8 /* veneno.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = veneno.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -293,6 +305,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB2FB29C15D9C01F0032C99E /* QuartzCore.framework in Frameworks */,
 				FB5D680E15901F49007EF535 /* AVFoundation.framework in Frameworks */,
 				FB066557155CD6A90063E739 /* Twitter.framework in Frameworks */,
 				FB698917155ACA79001E1398 /* CoreLocation.framework in Frameworks */,
@@ -384,20 +397,22 @@
 		FB6EC710155DCD3F003E4B67 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				FB836F8C1590DA0A0012ABED /* Legend.h */,
-				FB836F8D1590DA0A0012ABED /* Legend.m */,
-				FBE9F88C156D5A94009D5DAE /* Arqueology.h */,
-				FBE9F88D156D5A94009D5DAE /* Arqueology.m */,
-				FBE9F88F156D5AA7009D5DAE /* Church.h */,
-				FBE9F890156D5AA7009D5DAE /* Church.m */,
-				FBE9F892156D5B38009D5DAE /* Library.h */,
-				FBE9F893156D5B38009D5DAE /* Library.m */,
-				FBE9F89B156D5B9B009D5DAE /* Theather.h */,
-				FBE9F89C156D5B9B009D5DAE /* Theather.m */,
-				FBE9F898156D5B65009D5DAE /* Square.h */,
-				FBE9F899156D5B65009D5DAE /* Square.m */,
-				FBE9F895156D5B4B009D5DAE /* Museum.h */,
-				FBE9F896156D5B4B009D5DAE /* Museum.m */,
+				FBF90DAD15FC61A200FA2672 /* Library.h */,
+				FBF90DAE15FC61A200FA2672 /* Library.m */,
+				FBF90DAA15FC61A100FA2672 /* Church.h */,
+				FBF90DAB15FC61A100FA2672 /* Church.m */,
+				FBF90DA715FC61A000FA2672 /* Square.h */,
+				FBF90DA815FC61A100FA2672 /* Square.m */,
+				FBF90DA415FC61A000FA2672 /* Museum.h */,
+				FBF90DA515FC61A000FA2672 /* Museum.m */,
+				FBF90DA115FC61A000FA2672 /* Legend.h */,
+				FBF90DA215FC61A000FA2672 /* Legend.m */,
+				FBF90D9E15FC619D00FA2672 /* Theather.h */,
+				FBF90D9F15FC619D00FA2672 /* Theather.m */,
+				FBF90D9B15FC613B00FA2672 /* Arqueology.h */,
+				FBF90D9C15FC613B00FA2672 /* Arqueology.m */,
+				FBE5393015FEB1A000E13893 /* Building.h */,
+				FBE5393115FEB1A000E13893 /* Building.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -447,6 +462,12 @@
 				FB066543155CAE790063E739 /* SitespecificParentViewController.xib */,
 				FB66441E155AFA4B006B67AC /* LegendDescriptionViewController.xib */,
 				FB69891F155AE25A001E1398 /* HomeViewController.xib */,
+				FB91D529156EB16500F5F818 /* SquareDescriptionController.xib */,
+				FB91D533156EB2AE00F5F818 /* TheatherViewController.xib */,
+				FB91D515156EA88B00F5F818 /* ChurchDescripctionViewController.xib */,
+				FB177C73156DECA800986AF7 /* ArqueologyDescripcionViewController.xib */,
+				FB2DEC1C155D9A8F009A2854 /* SiteSpecificDetailViewController.xib */,
+				FB18A39815707DA80098A23E /* LibraryDetailViewController.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -454,7 +475,9 @@
 		FBCD557C159388B800CF6F91 /* Image Pin */ = {
 			isa = PBXGroup;
 			children = (
-				FB664421155AFC1E006B67AC /* library.png */,
+				FB99980315F94E3C00044C86 /* palace.png */,
+				FB99980015F94E2B00044C86 /* statue.png */,
+				FB44216A15E45D2C0079EE5B /* library.png */,
 				FBCD5574159388B000CF6F91 /* libraryb.png */,
 				FBCD5573159388B000CF6F91 /* museum.png */,
 				FBCD5575159388B000CF6F91 /* church.png */,
@@ -472,7 +495,7 @@
 				FB9F2FF6159A3CB0006F7F2C /* chavarria.mp3 */,
 				FB9F2FF7159A3CB0006F7F2C /* cinco.mp3 */,
 				FB9F2FF8159A3CB0006F7F2C /* factor.mp3 */,
-				FBC760FE15A21920003BADD0 /* adanza.mp3 */,
+				FBC760FE15A21920003BADD0 /* adanza1.mp3 */,
 				FB9F2FF9159A3CB0006F7F2C /* flamenco.mp3 */,
 				FB9F2FFA159A3CB0006F7F2C /* mail1.mp3 */,
 				FB9F2FFB159A3CB0006F7F2C /* volador.mp3 */,
@@ -509,14 +532,13 @@
 		FBD6F7D8155C5F1C009C19BD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FBE5392F15FE7DC900E13893 /* IconoApp */,
 				FBCD557C159388B800CF6F91 /* Image Pin */,
 				FBCD557D159389E500CF6F91 /* Audio File */,
 				FBCD557E15938A1400CF6F91 /* Icon TabBar */,
 				FBCD557F15938A4000CF6F91 /* Icon Display  */,
 				FB460607159A86B7009B1F0F /* ilustraciones640 */,
 				FB460611159A86B8009B1F0F /* Leyendas 320 */,
-				FB8D1B7415755C1C00E880FC /* icono-NO-RETINA.png */,
-				FBD5D6AB156C643500B5F75E /* icono-RETINA-DISPLAY.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -549,33 +571,37 @@
 			children = (
 				FB91D527156EB15F00F5F818 /* SquareDescriptionController.h */,
 				FB91D528156EB16200F5F818 /* SquareDescriptionController.m */,
-				FB91D529156EB16500F5F818 /* SquareDescriptionController.xib */,
 				FB91D531156EB2A700F5F818 /* TheatherViewController.h */,
 				FB91D532156EB2AA00F5F818 /* TheatherViewController.m */,
-				FB91D533156EB2AE00F5F818 /* TheatherViewController.xib */,
 				FB91D513156EA88A00F5F818 /* ChurchDescripctionViewController.h */,
 				FB91D514156EA88A00F5F818 /* ChurchDescripctionViewController.m */,
-				FB91D515156EA88B00F5F818 /* ChurchDescripctionViewController.xib */,
 				FB177C71156DECA800986AF7 /* ArqueologyDescripcionViewController.h */,
 				FB177C72156DECA800986AF7 /* ArqueologyDescripcionViewController.m */,
-				FB177C73156DECA800986AF7 /* ArqueologyDescripcionViewController.xib */,
 				FB698918155AD448001E1398 /* Sitespecific.h */,
 				FB698919155AD448001E1398 /* Sitespecific.m */,
 				FB066541155CAE790063E739 /* SitespecificParentViewController.h */,
 				FB066542155CAE790063E739 /* SitespecificParentViewController.m */,
 				FB2DEC1A155D9A8F009A2854 /* SiteSpecificDetailViewController.h */,
 				FB2DEC1B155D9A8F009A2854 /* SiteSpecificDetailViewController.m */,
-				FB2DEC1C155D9A8F009A2854 /* SiteSpecificDetailViewController.xib */,
 				FB18A39615707DA80098A23E /* LibraryDetailViewController.h */,
 				FB18A39715707DA80098A23E /* LibraryDetailViewController.m */,
-				FB18A39815707DA80098A23E /* LibraryDetailViewController.xib */,
 			);
 			name = SiteSpecific;
+			sourceTree = "<group>";
+		};
+		FBE5392F15FE7DC900E13893 /* IconoApp */ = {
+			isa = PBXGroup;
+			children = (
+				FBE5392D15FE766F00E13893 /* icono-app114.png */,
+				FBE5392A15FE766B00E13893 /* icono-app-57px.png */,
+			);
+			name = IconoApp;
 			sourceTree = "<group>";
 		};
 		FBE5A30F1559FA440070BA64 = {
 			isa = PBXGroup;
 			children = (
+				FB70637216061B3D00DBE562 /* Default-568h@2x.png */,
 				FB46065E159A9296009B1F0F /* FACEBOOK */,
 				FB6EC710155DCD3F003E4B67 /* Models */,
 				FBCCBEB4155D7EA500AE818D /* Views */,
@@ -599,6 +625,8 @@
 		FBE5A31D1559FA450070BA64 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FB2FB29B15D9C01F0032C99E /* QuartzCore.framework */,
+				FB2FB29815D9B4BE0032C99E /* CoreText.framework */,
 				FB5D680D15901F49007EF535 /* AVFoundation.framework */,
 				FB066556155CD6A90063E739 /* Twitter.framework */,
 				FB698916155ACA79001E1398 /* CoreLocation.framework */,
@@ -616,7 +644,6 @@
 			children = (
 				FBE5A32F1559FA450070BA64 /* DCCDAppDelegate.h */,
 				FBE5A3301559FA450070BA64 /* DCCDAppDelegate.m */,
-				FBE5A3321559FA450070BA64 /* DeCalleenCallee.xcdatamodeld */,
 				FBE5A3271559FA450070BA64 /* Supporting Files */,
 			);
 			path = DeCalleenCallee;
@@ -625,7 +652,8 @@
 		FBE5A3271559FA450070BA64 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FB836F9115911B9C0012ABED /* DeCalleenCallee.sqlite */,
+				FBE5A3321559FA450070BA64 /* DeCalleenCallee.xcdatamodeld */,
+				FBEE5071160A3D840090D75E /* DeCalleenCallee.sqlite */,
 				FBE5A3281559FA450070BA64 /* DeCalleenCallee-Info.plist */,
 				FBE5A3291559FA450070BA64 /* InfoPlist.strings */,
 				FBE5A32C1559FA450070BA64 /* main.m */,
@@ -660,7 +688,7 @@
 		FBE5A3111559FA440070BA64 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0440;
+				LastUpgradeCheck = 0450;
 			};
 			buildConfigurationList = FBE5A3141559FA440070BA64 /* Build configuration list for PBXProject "DeCalleenCallee" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -689,14 +717,12 @@
 				FB69891C155AD448001E1398 /* Sitespecific.xib in Resources */,
 				FB698921155AE25B001E1398 /* HomeViewController.xib in Resources */,
 				FB664420155AFA4B006B67AC /* LegendDescriptionViewController.xib in Resources */,
-				FB664422155AFC1E006B67AC /* library.png in Resources */,
 				FBDA7CA0155C1ABB0069B49C /* LegendParentViewController.xib in Resources */,
 				FB066545155CAE790063E739 /* SitespecificParentViewController.xib in Resources */,
 				FB066555155CD1CF0063E739 /* twitter.png in Resources */,
 				FBCCBEB0155D751A00AE818D /* LegendDetailViewController.xib in Resources */,
 				FB8CDCF3155D8EE9002EE695 /* LegendImageViewController.xib in Resources */,
 				FB2DEC1E155D9A90009A2854 /* SiteSpecificDetailViewController.xib in Resources */,
-				FBD5D6AC156C643500B5F75E /* icono-RETINA-DISPLAY.png in Resources */,
 				FB177C75156DECA900986AF7 /* ArqueologyDescripcionViewController.xib in Resources */,
 				FB91D517156EA88C00F5F818 /* ChurchDescripctionViewController.xib in Resources */,
 				FB91D52B156EB16700F5F818 /* SquareDescriptionController.xib in Resources */,
@@ -706,10 +732,8 @@
 				FBC577BE1575256F00C2F7CA /* map.png in Resources */,
 				FBC577C01575259700C2F7CA /* map@2x.png in Resources */,
 				FBC577C2157525CC00C2F7CA /* book@2x.png in Resources */,
-				FB8D1B7515755C1C00E880FC /* icono-NO-RETINA.png in Resources */,
 				FBD5B009157C3A78006F2488 /* facebook.png in Resources */,
 				FB5D681315903945007EF535 /* fondo@2x.png in Resources */,
-				FB836F9215911B9C0012ABED /* DeCalleenCallee.sqlite in Resources */,
 				FBCD5576159388B000CF6F91 /* theater.png in Resources */,
 				FBCD5577159388B000CF6F91 /* arqueology.png in Resources */,
 				FBCD5578159388B000CF6F91 /* place.png in Resources */,
@@ -744,11 +768,18 @@
 				FB46062B159A86B8009B1F0F /* quemada.png in Resources */,
 				FB46062C159A86B8009B1F0F /* volador.png in Resources */,
 				FBF963E3159EBEC0006116B8 /* veneno.mp3 in Resources */,
-				FBD1A18E15A215E3009F0007 /* Default@2x.png in Resources */,
-				FBD1A19015A215E6009F0007 /* Default.png in Resources */,
-				FBC760FF15A21920003BADD0 /* adanza.mp3 in Resources */,
+				FBC760FF15A21920003BADD0 /* adanza1.mp3 in Resources */,
 				FBD4F1D115A3DAF40003DDB2 /* folder_musicba.png in Resources */,
 				FBD4F1D415A3EB9B0003DDB2 /* folder_music.png in Resources */,
+				FB44216B15E45D2C0079EE5B /* library.png in Resources */,
+				FB99980115F94E2B00044C86 /* statue.png in Resources */,
+				FB99980415F94E3C00044C86 /* palace.png in Resources */,
+				FB747ECB15FAEBE2007C60AF /* Default.png in Resources */,
+				FB747ECC15FAEBF3007C60AF /* Default@2x.png in Resources */,
+				FBE5392B15FE766B00E13893 /* icono-app-57px.png in Resources */,
+				FBE5392E15FE766F00E13893 /* icono-app114.png in Resources */,
+				FB70637316061B3D00DBE562 /* Default-568h@2x.png in Resources */,
+				FBEE5072160A3D840090D75E /* DeCalleenCallee.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -788,19 +819,20 @@
 				FBE9F845156CC321009D5DAE /* MyPointtheater.m in Sources */,
 				FBE9F848156CC349009D5DAE /* MyPointLibrary.m in Sources */,
 				FBE9F84B156CC364009D5DAE /* MyPointarqueology.m in Sources */,
-				FBE9F88E156D5A94009D5DAE /* Arqueology.m in Sources */,
-				FBE9F891156D5AA7009D5DAE /* Church.m in Sources */,
-				FBE9F894156D5B38009D5DAE /* Library.m in Sources */,
-				FBE9F897156D5B4B009D5DAE /* Museum.m in Sources */,
-				FBE9F89A156D5B65009D5DAE /* Square.m in Sources */,
-				FBE9F89D156D5B9B009D5DAE /* Theather.m in Sources */,
 				FB177C74156DECA900986AF7 /* ArqueologyDescripcionViewController.m in Sources */,
 				FB91D516156EA88C00F5F818 /* ChurchDescripctionViewController.m in Sources */,
 				FB91D52A156EB16700F5F818 /* SquareDescriptionController.m in Sources */,
 				FB91D534156EB2B300F5F818 /* TheatherViewController.m in Sources */,
 				FB18A39915707DA80098A23E /* LibraryDetailViewController.m in Sources */,
 				FB0E1A7C157E7E7100908E05 /* PlaceFromLocation.m in Sources */,
-				FB836F8E1590DA0A0012ABED /* Legend.m in Sources */,
+				FBF90D9D15FC613B00FA2672 /* Arqueology.m in Sources */,
+				FBF90DA015FC619D00FA2672 /* Theather.m in Sources */,
+				FBF90DA315FC61A000FA2672 /* Legend.m in Sources */,
+				FBF90DA615FC61A000FA2672 /* Museum.m in Sources */,
+				FBF90DA915FC61A100FA2672 /* Square.m in Sources */,
+				FBF90DAC15FC61A100FA2672 /* Church.m in Sources */,
+				FBF90DAF15FC61A200FA2672 /* Library.m in Sources */,
+				FBE5393215FEB1A000E13893 /* Building.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -876,6 +908,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DeCalleenCallee/DeCalleenCallee-Prefix.pch";
 				INFOPLIST_FILE = "DeCalleenCallee/DeCalleenCallee-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "DB76438F-A17E-45FE-A2C2-7BF07B20C539";
 				WRAPPER_EXTENSION = app;
@@ -889,6 +922,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DeCalleenCallee/DeCalleenCallee-Prefix.pch";
 				INFOPLIST_FILE = "DeCalleenCallee/DeCalleenCallee-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "DB76438F-A17E-45FE-A2C2-7BF07B20C539";
 				WRAPPER_EXTENSION = app;

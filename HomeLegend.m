@@ -28,6 +28,11 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+        self.locationManager = [[CLLocationManager alloc] init];
+        self.locationManager.delegate = self;
+        
+        [locationManager setDesiredAccuracy:kCLLocationAccuracyNearestTenMeters];
+
         // Custom initialization
     }
     return self;
@@ -48,15 +53,18 @@
     
 
     [super viewDidLoad];
-    self.locationManager = [[CLLocationManager alloc] init];
-	self.locationManager.delegate = self;
-    [locationManager startMonitoringSignificantLocationChanges];
+   // self.locationManager = [[CLLocationManager alloc] init];
+//	self.locationManager.delegate = self;
+  //  [locationManager startMonitoringSignificantLocationChanges];
+    
+//    [locationManager setDesiredAccuracy:kCLLocationAccuracyNearestTenMeters];
+    
     alreadyCenter = false;
     
     [self.navigationItem setTitle:@"De Calle en Calle"];
     [self.navigationController.navigationBar setBarStyle:UIBarStyleBlack];
     UIBarButtonItem *tempral=[[UIBarButtonItem alloc]init];
-    tempral.title=@"Regresar";
+    tempral.title=@"Atrás";
     self.navigationItem.backBarButtonItem =tempral;
         
     NSString *deviceType = [UIDevice currentDevice].model;
@@ -94,6 +102,9 @@
     }
     
 }*/
+
+#pragma mark - paint for pin,selected which kind of class
+
 - (MKAnnotationView *)mapView:(MKMapView *)map viewForAnnotation:(id <MKAnnotation>)annotation
 {   
     static NSString *annotatioID;
@@ -140,7 +151,7 @@
     
    
 
-
+#pragma mark - Show information about annotationview
 
 - (void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control
 {
@@ -255,6 +266,8 @@
 	[self centerMapOnUserLocation];
 	[self.locationManager stopUpdatingLocation];
     
+    [self.locationManager stopMonitoringSignificantLocationChanges];
+    
 }
 - (void)locationManager:(CLLocationManager *)manager
 	   didFailWithError:(NSError *)error
@@ -267,6 +280,8 @@
 	[self LegendsInMap:newLocation];
 	[self centerMapOnUserLocation];
 	[self.locationManager stopUpdatingLocation];
+    
+    [self.locationManager stopMonitoringSignificantLocationChanges];
 	
 	
 }
@@ -285,6 +300,9 @@
  		firstCount ++;
 	}
 	
+}
+-(void)dealloc{
+    [locationManager setDelegate:nil];
 }
 
 @end

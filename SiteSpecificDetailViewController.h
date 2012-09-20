@@ -14,13 +14,16 @@
 #import "Library.h"
 #import "Theather.h"
 #import "Square.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface SiteSpecificDetailViewController : UIViewController
 {
     Museum *detailMuseum;
     
+    IBOutlet UIScrollView *scroll;
     __weak IBOutlet UIImageView *backgroundimage;
     
+    __weak IBOutlet UIImageView *ImageMuseum;
     
 }
 @property(nonatomic,strong) Museum *detailMuseum;

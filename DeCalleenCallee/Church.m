@@ -2,8 +2,8 @@
 //  Church.m
 //  DeCalleenCallee
 //
-//  Created by Xochitl Perez on 23/05/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by Xochitl Perez on 09/09/12.
+//
 //
 
 #import "Church.h"
@@ -12,10 +12,14 @@
 @implementation Church
 
 @dynamic category;
-@dynamic nameChurch;
-@dynamic nameImage;
-@dynamic summary;
-@dynamic longitude;
 @dynamic latitude;
+@dynamic longitude;
+@dynamic nameChurch;
+@dynamic summary;
+@dynamic address;
+@dynamic schedule;
+@dynamic subway;
+@dynamic telephone;
+@dynamic cost;
 
 @end

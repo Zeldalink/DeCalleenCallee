@@ -2,8 +2,8 @@
 //  Museum.h
 //  DeCalleenCallee
 //
-//  Created by Xochitl Perez on 23/05/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by Xochitl Perez on 09/09/12.
+//
 //
 
 #import <Foundation/Foundation.h>
@@ -15,8 +15,12 @@
 @property (nonatomic, retain) NSString * category;
 @property (nonatomic, retain) NSNumber * latitude;
 @property (nonatomic, retain) NSNumber * longitude;
-@property (nonatomic, retain) NSString * summary;
-@property (nonatomic, retain) NSString * nameImage;
 @property (nonatomic, retain) NSString * nameMuseum;
+@property (nonatomic, retain) NSString * summary;
+@property (nonatomic, retain) NSString * address;
+@property (nonatomic, retain) NSString * cost;
+@property (nonatomic, retain) NSString * telephone;
+@property (nonatomic, retain) NSString * subway;
+@property (nonatomic, retain) NSString * schedule;
 
 @end

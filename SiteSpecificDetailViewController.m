@@ -10,6 +10,7 @@
 
 #import "Museum.h"
 
+
 @implementation SiteSpecificDetailViewController
 @synthesize Title=_Title;
 @synthesize Summary = _Summary;
@@ -38,17 +39,21 @@
 {
     [super viewDidLoad];
    // [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"Headiphone"] forBarMetrics:UIBarMetricsDefault];
-    
-    [self.navigationItem setTitle:@"Museo"];
+    self.navigationItem.title =[_detailMuseum nameMuseum];
+  //  [self.navigationItem setTitle:[_detailMuseum nameMuseum]];
+
     [self.navigationController.navigationBar setBarStyle:UIBarStyleBlack];
     UIBarButtonItem *tempral=[[UIBarButtonItem alloc]init];
-    tempral.title=@"Regresar";
+    tempral.title=@"Atrás";
     self.navigationItem.backBarButtonItem =tempral;
-    [_Title setText:[_detailMuseum nameMuseum]];
+   // [_Title setText:[_detailMuseum nameMuseum]];
     _Title.backgroundColor =[UIColor clearColor];
-    
+    //[scroll setContentSize:CGSizeMake(320, 1000)];
+    [scroll setScrollEnabled:YES];
     [_Summary setText:[_detailMuseum summary]];
+   // [ImageMuseum setImage:[UIImage imageNamed:[_detailMuseum nameImage]]];
     _Summary.backgroundColor=[UIColor clearColor];
+    
     [backgroundimage setImage:[UIImage imageNamed:@"fondo.png"]];
     // Do any additional setup after loading the view from its nib.
 }
@@ -58,6 +63,7 @@
     [self setTitle:nil];
     [self setSummary:nil];
     backgroundimage = nil;
+    ImageMuseum = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

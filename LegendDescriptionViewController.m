@@ -48,7 +48,7 @@
     [self.navigationItem setTitle:@"Leyendas"];
     [self.navigationController.navigationBar setBarStyle:UIBarStyleBlack];
     UIBarButtonItem *tempral=[[UIBarButtonItem alloc]init];
-    tempral.title=@"Regresar";
+    tempral.title=@"Atrás";
     self.navigationItem.backBarButtonItem =tempral;
     //    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"Headiphone"] forBarMetrics:UIBarMetricsDefault];
     [backgroundImage setImage:[UIImage imageNamed:@"fondo.png"]];
@@ -56,11 +56,13 @@
     _TitleLegend.backgroundColor =[UIColor clearColor];
     [_SummaryLegend setText:[_detailLegend summary]];
     _SummaryLegend.backgroundColor =[UIColor clearColor];
- 
-   NSString *musicPath=[[NSBundle mainBundle]pathForResource:[_detailLegend audioLegend] ofType:@"mp3"];
+    
+    NSString *musicPath=[[NSBundle mainBundle]pathForResource:[_detailLegend audioLegend] ofType:@"mp3"];
     NSURL *musicURL=[NSURL fileURLWithPath:musicPath];
     audioPlayer=[[AVAudioPlayer alloc]initWithContentsOfURL:musicURL error:nil];
     [audioPlayer setDelegate:self];
+
+    
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     if ([defaults objectForKey:@"FBAccessTokenKey"] 
         && [defaults objectForKey:@"FBExpirationDateKey"]) {

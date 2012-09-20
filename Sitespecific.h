@@ -31,6 +31,8 @@
 @property(nonatomic,strong)CLLocationManager *locationManager;
 @property (nonatomic, strong) NSMutableArray *nearestPlaces;
 @property (nonatomic,strong) NSArray *sortedVenues;
+
+
 -(void)LegendsInMap:(CLLocation *)newLocation;
 //-(void)alllegends;
 -(void)siteSpecific:(CLLocation *)newLocation;

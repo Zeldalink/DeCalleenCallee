@@ -49,7 +49,9 @@
     [_Title setText:[_detailArqueology nameArqueology]];
     _Title.backgroundColor=[UIColor clearColor];
     [_Summary setText:[_detailArqueology summary]];
+    
     _Summary.backgroundColor=[UIColor clearColor];
+
     // Do any additional setup after loading the view from its nib.
 }
 

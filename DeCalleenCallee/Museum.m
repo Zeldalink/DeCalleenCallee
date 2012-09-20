@@ -2,8 +2,8 @@
 //  Museum.m
 //  DeCalleenCallee
 //
-//  Created by Xochitl Perez on 23/05/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by Xochitl Perez on 09/09/12.
+//
 //
 
 #import "Museum.h"
@@ -14,8 +14,12 @@
 @dynamic category;
 @dynamic latitude;
 @dynamic longitude;
-@dynamic summary;
-@dynamic nameImage;
 @dynamic nameMuseum;
+@dynamic summary;
+@dynamic address;
+@dynamic cost;
+@dynamic telephone;
+@dynamic subway;
+@dynamic schedule;
 
 @end

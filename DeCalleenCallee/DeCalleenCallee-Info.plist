@@ -10,10 +10,10 @@
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFiles</key>
 	<array>
-		<string>icono-RETINA-DISPLAY.png</string>
-		<string>icono-NO-RETINA.png</string>
 		<string>Default@2x.png</string>
 		<string>Default.png</string>
+		<string>icono-app-57px.png</string>
+		<string>icono-app114.png</string>
 	</array>
 	<key>CFBundleIcons</key>
 	<dict>
@@ -21,10 +21,10 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
-				<string>icono-RETINA-DISPLAY.png</string>
-				<string>icono-NO-RETINA.png</string>
 				<string>Default@2x.png</string>
 				<string>Default.png</string>
+				<string>icono-app-57px.png</string>
+				<string>icono-app114.png</string>
 			</array>
 			<key>UIPrerenderedIcon</key>
 			<false/>
