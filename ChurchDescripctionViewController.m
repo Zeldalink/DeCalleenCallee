@@ -7,6 +7,7 @@
 //
 
 #import "ChurchDescripctionViewController.h"
+#import "informationChurchViewController.h"
 
 @implementation ChurchDescripctionViewController
 @synthesize Title=_Title;
@@ -38,7 +39,7 @@
     [self.navigationItem setTitle:@"Iglesia"];
     [self.navigationController.navigationBar setBarStyle:UIBarStyleBlack];
     UIBarButtonItem *tempral=[[UIBarButtonItem alloc]init];
-    tempral.title=@"Regresar";
+    tempral.title=@"Atrás";
     self.navigationItem.backBarButtonItem =tempral;
     [BackgroundChurch setImage:[UIImage imageNamed:@"fondo.png"]];
     [_Title setText:[_detailChurch nameChurch]];
@@ -65,5 +66,13 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (IBAction)moreInformation:(id)sender {
+    informationChurchViewController *moreinformation=[[informationChurchViewController alloc]initWithNibName:@"informationChurchViewController" bundle:nil];
+    [moreinformation setDetailChurch:_detailChurch];
+    
+    [self.navigationController pushViewController:moreinformation animated:YES];
+
+    
+}
 
 @end

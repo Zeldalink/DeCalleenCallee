@@ -7,6 +7,8 @@
 //
 
 #import "TheatherViewController.h"
+#import "Theather.h"
+#import "informationTheatherViewController.h"
 
 @implementation TheatherViewController
 @synthesize Summary=_Summary;
@@ -64,6 +66,12 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+- (IBAction)moreInformation:(id)sender{
+    informationTheatherViewController *newwindow=[[informationTheatherViewController alloc]initWithNibName:@"informationTheatherViewController" bundle:nil];
+[newwindow setDetailTheather:_detailTheather];
+    [self.navigationController pushViewController:newwindow animated:YES];
+
 }
 
 @end

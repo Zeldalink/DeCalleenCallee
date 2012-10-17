@@ -8,7 +8,7 @@
 
 #import "ArqueologyDescripcionViewController.h"
 #import "Arqueology.h"
-
+#import "informationArqueologyViewController.h"
 
 @implementation ArqueologyDescripcionViewController
 @synthesize backgroundArqueology = _backgroundArqueology;
@@ -43,7 +43,7 @@
     [self.navigationItem setTitle:@"Arqueología"];
     [self.navigationController.navigationBar setBarStyle:UIBarStyleBlack];
     UIBarButtonItem *tempral=[[UIBarButtonItem alloc]init];
-    tempral.title=@"Regresar";
+    tempral.title=@"Atrás";
     self.navigationItem.backBarButtonItem =tempral;    
     [_backgroundArqueology setImage:[UIImage imageNamed:@"fondo.png"]];
     [_Title setText:[_detailArqueology nameArqueology]];
@@ -70,6 +70,12 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+- (IBAction)moreInformation:(id)sender {
+
+    informationArqueologyViewController *newwindow=[[informationArqueologyViewController alloc]initWithNibName:@"informationArqueologyViewController" bundle:nil];
+    [newwindow setDetailArqueology:_detailArqueology];
+    [self.navigationController pushViewController:newwindow animated:YES];
 }
 
 

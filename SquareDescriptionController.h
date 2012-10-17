@@ -16,4 +16,7 @@
 @property (weak, nonatomic) IBOutlet UITextView *Title;
 @property (weak, nonatomic) IBOutlet UIImageView *backgroundSquare;
 @property(nonatomic,strong)Square *detailSquare;
+- (IBAction)showmoreinformation:(id)sender;
+
+
 @end

@@ -16,6 +16,7 @@
 #import "MyPointMuseum.h"
 #import "MyPointplace.h"
 #import "MyPointtheater.h"
+#import "MyPointBuilding.h"
 
 @interface Sitespecific : UIViewController<MKMapViewDelegate,MKAnnotation,CLLocationManagerDelegate>{
 	

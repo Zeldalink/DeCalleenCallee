@@ -8,7 +8,7 @@
 
 #import "SquareDescriptionController.h"
 
-
+#import "DetailSquareViewController.h"
 @implementation SquareDescriptionController
 @synthesize Summary=_Summary;
 @synthesize Title=_Title;
@@ -40,7 +40,7 @@
     [self.navigationItem setTitle:@"Plaza"];
     [self.navigationController.navigationBar setBarStyle:UIBarStyleBlack];
     UIBarButtonItem *tempral=[[UIBarButtonItem alloc]init];
-    tempral.title=@"Regresar";
+    tempral.title=@"Atrás";
     self.navigationItem.backBarButtonItem =tempral;
     [backgroundSquare setImage:[UIImage imageNamed:@"fondo.png"]];
     [_Title setText:[_detailSquare nameSquare]];
@@ -64,6 +64,13 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
 
+}
+- (IBAction)showmoreinformation:(id)sender {
+
+    DetailSquareViewController *newwindow=[[DetailSquareViewController alloc]initWithNibName:@"DetailSquareViewController" bundle:nil];
+    [newwindow setDetailsquare:_detailSquare];
+    [self.navigationController pushViewController:newwindow animated:YES];
+
+}
 @end

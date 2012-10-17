@@ -60,7 +60,6 @@
 //    [locationManager setDesiredAccuracy:kCLLocationAccuracyNearestTenMeters];
     
     alreadyCenter = false;
-    
     [self.navigationItem setTitle:@"De Calle en Calle"];
     [self.navigationController.navigationBar setBarStyle:UIBarStyleBlack];
     UIBarButtonItem *tempral=[[UIBarButtonItem alloc]init];

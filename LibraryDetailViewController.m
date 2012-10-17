@@ -7,7 +7,7 @@
 //
 
 #import "LibraryDetailViewController.h"
-
+#import "informationLibraryViewController.h"
 @implementation LibraryDetailViewController
 
 @synthesize Summary=_Summary;
@@ -39,7 +39,7 @@
     [self.navigationItem setTitle:@"Biblioteca"];
     [self.navigationController.navigationBar setBarStyle:UIBarStyleBlack];
     UIBarButtonItem *tempral=[[UIBarButtonItem alloc]init];
-    tempral.title=@"Regresar";
+    tempral.title=@"Atrás";
     self.navigationItem.backBarButtonItem =tempral;
     [backgroundLibrary setImage:[UIImage imageNamed:@"fondo.png"]];
     [_Title setText:[_detailLibrary nameLibrary]];
@@ -57,6 +57,13 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+}
+- (IBAction)moreInformation:(id)sender {
+    informationLibraryViewController*newwindow=[[informationLibraryViewController alloc]initWithNibName:@"informationLibraryViewController" bundle:nil];
+    [newwindow setDetaillibrary:_detailLibrary];
+    
+    [self.navigationController pushViewController:newwindow animated:YES];
+    
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation

@@ -9,7 +9,7 @@
 #import "LegendDescriptionViewController.h"
 #import "LegendImageViewController.h"
 #import "Legend.h"
-
+#import <Social/Social.h>
 
 
 
@@ -102,12 +102,13 @@
 #pragma mark - Twitter
 
 - (IBAction)TwitterPost:(id)sender {
-    
-    TWTweetComposeViewController *tweetController=[[TWTweetComposeViewController alloc]init];
+       TWTweetComposeViewController *tweetController=[[TWTweetComposeViewController alloc]init];
     [tweetController setInitialText:[_detailLegend texttwitter]];
     [self dismissModalViewControllerAnimated:YES];
     
     [self presentModalViewController:tweetController animated:YES];
+
+    
 
 }
 #pragma mark - Audio File

@@ -15,6 +15,7 @@
 #import "TheatherViewController.h"
 #import "ChurchDescripctionViewController.h"
 #import "SquareDescriptionController.h"
+#import "BuildingDescriptionViewController.h"
 #import "Square.h"
 #import "DCCDAppDelegate.h"
 #import "Arqueology.h"
@@ -23,6 +24,8 @@
 #import "Theather.h"
 #import "Square.h"
 #import "Museum.h"
+#import "Building.h"
+
 
 
 @implementation Sitespecific
@@ -171,6 +174,19 @@
         return annotationView;
         
     }
+    else if([annotation isKindOfClass:[MyPointBuilding class]]){
+        
+        annotationView.image=[UIImage imageNamed:@"palace.png"];
+        annotationView.annotation = annotation;
+        
+        annotationView.canShowCallout = YES;
+        UIButton *rigthButton =  [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+        annotationView.rightCalloutAccessoryView = rigthButton;
+        
+        return annotationView;
+        
+    }
+    
     
     
     
@@ -229,16 +245,27 @@
         [squarepo setDetailSquare:[squarepoint pinSquare]];
         [self.navigationController pushViewController:squarepo animated:YES];
     }
+    else if([view.annotation  isKindOfClass:[MyPointBuilding class]]){
+        MyPointBuilding *buildingpoint=(MyPointBuilding *)view.annotation;
+        BuildingDescriptionViewController *buildingpo=[[BuildingDescriptionViewController alloc]initWithNibName:@"BuildingDescriptionViewController" bundle:nil];
+        [buildingpo setDetailBuilding:[buildingpoint pinBuilding]];
+        [self.navigationController pushViewController:buildingpo animated:YES];
+    }
+
+    
+    
 }
 
 
 
 
-    - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
+
+//    - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+//{
     // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
+  //  return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    
+//}
 - (void)viewDidUnload
 {
     [super viewDidUnload];
@@ -247,7 +274,7 @@
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
-#pragma mark - 
+#pragma mark - Method about location
 
 - (void) centerMapOnUserLocation
 {
@@ -518,10 +545,38 @@
         
         myannotationSquare.distanceFromUser=[self calculateDistanceFromUserToVenue:newLocation venue:venueLocation];
         [nearestPlaces addObject:myannotationSquare];
-        NSLog(@"%@",myannotationSquare.distanceFromUser);  
+        NSLog(@"%@",myannotationSquare.distanceFromUser);
+
     }
+    
+       NSFetchRequest *fetchRequestBuilding=[[NSFetchRequest alloc]init];
+        NSEntityDescription *entityBuilding=[NSEntityDescription entityForName:@"Building" inManagedObjectContext:_managedObjectContext];
+        [fetchRequestBuilding setEntity:entityBuilding];
+        NSArray *fetchedObjectsBuilding=[_managedObjectContext executeFetchRequest:fetchRequestBuilding error:&error];
+
+        //NSMutableArray *annotationsSquare=[[NSMutableArray alloc]init];
+        for(int i=0;i<[fetchedObjectsBuilding count];i++){
+           CLLocationCoordinate2D theCoordinate7;
+            MyPointBuilding *myannotationBuilding=[[MyPointBuilding alloc]init];
+            Building *mybuilding=[fetchedObjectsBuilding objectAtIndex:i];
+            theCoordinate7.latitude=[[mybuilding latitud]floatValue];
+            theCoordinate7.longitude=[[mybuilding longitud]floatValue];
+                                      
+            myannotationBuilding.coordinate=theCoordinate7;
+            myannotationBuilding.title=[mybuilding nameBuilding];
+            myannotationBuilding.subtitle=[mybuilding category];
+            [myannotationBuilding setPinBuilding:mybuilding];
+            CLLocation *venueLocation=[[CLLocation alloc]initWithLatitude:theCoordinate7.latitude longitude:theCoordinate7.longitude];
+        
+        
+        myannotationBuilding.distanceFromUser=[self calculateDistanceFromUserToVenue:newLocation venue:venueLocation];
+        [nearestPlaces addObject:myannotationBuilding];
+        NSLog(@"%@",myannotationBuilding.distanceFromUser);
+    }
+    
 [self loadVenuesInMap];
 }
+
 
 
 @end

@@ -30,6 +30,7 @@
 @property (weak, nonatomic) IBOutlet UITextView *Title;
 
 @property (weak, nonatomic) IBOutlet UITextView *Summary;
+- (IBAction)moreInformation:(id)sender;
 
 
 @end
