@@ -37,7 +37,7 @@
 {
     [super viewDidLoad];
     UIViewController *viewController1 = [[LegendParentViewController alloc] initWithNibName:@"LegendParentViewController" bundle:nil];
-    [self.navigationController.navigationBar setHidden:YES];
+   // [self.navigationController.navigationBar setHidden:YES];
      UITabBarItem *tab1 = [[UITabBarItem alloc] initWithTitle:@"Leyendas" image:[UIImage imageNamed:@"book"] tag:1];
      
      
@@ -51,7 +51,7 @@
     
 	_homeTabBarController.viewControllers=[NSArray arrayWithObjects:viewController1,viewController2, nil];
     [_homeTabBarController.view setFrame:self.view.bounds];
-	
+
 	[self.view addSubview:_homeTabBarController.view];
 
     // Do any additional setup after loading the view from its nib.
@@ -73,7 +73,8 @@
 {
     // Return YES for supported orientations
     //return (interfaceOrientation == UIInterfaceOrientationPortrait);
-    return (UIDeviceOrientationIsValidInterfaceOrientation(interfaceOrientation));
+   // return (UIDeviceOrientationIsValidInterfaceOrientation(interfaceOrientation));
+    return NO;
 }
 
 
